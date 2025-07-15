@@ -1,0 +1,426 @@
+<?php
+/*
+Template Name: トップページ
+*/
+?>
+
+<?php get_header(); ?>
+<body>
+<?php get_template_part('after_open_body'); ?>
+	<div id="wrapper">
+<?php get_template_part('gnav'); ?>
+<?php 
+if(get_the_post_thumbnail_url($post->ID, "full")){
+	$mv = get_the_post_thumbnail_url($post->ID, "full");
+	$mv_css =  ' style="background:url('.$mv.')"';
+}
+?>		
+		
+		<main id="index_new">
+			<article>
+				<section class="index_new_visual area">
+					<div class="inner1000">
+						<div class="txt_box">
+							<p class="visual_ttl01 orange">福岡本社</p>
+							<h2 class="visual_ttl02">インドネシア市場に特化した<br>進出支援と集客支援</h2>
+							<p class="visual_txt">カケモチは、<br>
+							IT・デジタル技術の活用によってビジネスモデルを変革し<br>
+							インドネシア市場における売上・利益の拡大を支援する<br>
+							多国籍企業です。</p>
+						</div>
+
+						<div class="online_visual">
+							<p class="online_visual_img"><a href="<?php echo home_url(); ?>/seminar/overseas-expansion-to-indonesia/"><img src="<?php echo home_url(); ?>/wp/wp-content//themes/kakemochi/img/column/seminar_japan_banner.png" alt="無料セミナー　初めてのインドネシア進出"></a></p>
+						</div>
+					</div>
+				</section>
+				<!-- index_new_visual -->
+			  
+			  
+				<!--お客様の声-->
+				<?php get_template_part('parts/client_summary'); ?>				
+				<!--//お客様の声-->
+			  
+
+        <!-- インドネシアへの進出支援 -->
+        <section class="index_new_support area">
+					<div class="inner1000">
+						<h3 class="new_ttl01">インドネシアへの<span class="orange">進出支援</span></h3>
+						<p class="top_txt">いきなりインドネシア進出でも構いませんが、市場調査やテスト販売を経て、本格的にインドネシア市場へと向かう段階的な進出もステップ毎に支援しています。</p>
+						<ul class="index_new_support_cont">
+							<li class="index_new_support_cont01">
+								<p class="index_new_support_ttl index_new_support_cont01_ttl">市場調査</p>
+								<div class="index_new_support_cont_img"><img src="<?php echo get_theme_file_uri(); ?>/img/index_new/shinshutu_img01.png" alt="市場調査"></div>
+								<ul class="index_new_support_inner_list">
+									<li><a href="<?php echo home_url(); ?>/overseas-expansion/indonesian-market-research/">アンケート調査</a></li>
+									<li><a href="<?php echo home_url(); ?>/overseas-expansion/inspection-tour-to-indonesia/">現地視察</a></li>
+								</ul>
+							</li>
+							<li class="index_new_support_cont02">
+								<p class="index_new_support_ttl index_new_support_cont02_ttl">テスト販売</p>
+								<div class="index_new_support_cont_img"><img src="<?php echo get_theme_file_uri(); ?>/img/index_new/shinshutu_img02.png" alt="テスト販売"></div>
+								<ul class="index_new_support_inner_list">
+									<li><a href="<?php echo home_url(); ?>/overseas-expansion/cross-border-e-commerce/">越境EC</a></li>
+									<li><a href="<?php echo home_url(); ?>/exhibition-indonesia/">展示会出展</a></li>
+								</ul>
+							</li>
+							<li class="index_new_support_cont03">
+								<p class="index_new_support_ttl index_new_support_cont03_ttl">本格進出</p>
+								<div class="index_new_support_cont_img"><img src="<?php echo get_theme_file_uri(); ?>/img/index_new/shinshutu_img03.png" alt="本格進出"></div>
+								<ul class="index_new_support_inner_list">
+									<li><a href="<?php echo home_url(); ?>/overseas-expansion/work-visa/">就労ビザ</a></li>
+									<li><a href="<?php echo home_url(); ?>/overseas-expansion/founding-of-a-company/">会社設立</a></li>
+								</ul>
+							</li>
+
+							
+						</ul>
+					</div>
+				</section>
+				<!-- //インドネシアへの進出支援 -->
+
+
+			  
+				<section class="index_new_interview area bg02">
+					<div class="inner1000">
+						<h3 class="new_ttl01">インドネシアで活躍されている<br class="sp"><span class="orange">注目の企業様</span>へのインタビュー</h3>
+						<ul class="new_interview_list new_interview_list_up">
+						<li>
+								<p class="img"><img alt="アジアクエスト" src="https://tricruise.id/wp/wp-content/uploads/2023/06/aqi.co_.id_visual.jpg"></p>
+								<div class="txt_box">
+									<p class="ttl">アジアクエスト様</p>
+									<p class="txt">「なぜそれをやるのか」をしっかりと伝え、挑戦を歓迎する。Webシステム開発やサイト制作を手がけるアジアクエストに人が集まる理由</p>
+									<p class="new_btn01 center"><a href="<?php echo home_url(); ?>/interview/asiaquest/">続きを読む</a></p>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img alt="SENSHA" src="https://tricruise.id/wp/wp-content/uploads/2023/05/bessho_visual-1.jpg"></p>
+								<div class="txt_box">
+									<p class="ttl">SENSHA様</p>
+									<p class="txt">お客さんやスタッフとの綿密なコミュニケーションが成功の鍵。インドネシアで洗車とコーティングを提供する「SENSHA」が歩んだ道のり</p>
+									<p class="new_btn01 center"><a href="<?php echo home_url(); ?>/interview/sensha/">続きを読む</a></p>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img alt="TOKYO BELLE" src="https://tricruise.id/wp/wp-content/uploads/2022/10/tokobelle_visual.jpg"></p>
+								<div class="txt_box">
+									<p class="ttl">TOKYO BELLE様</p>
+									<p class="txt">なぜスラバヤで美容サロン？グロースから売却までを経験した、元金融ビジネスマンから見るインドネシアの美容業界</p>
+									<p class="new_btn01 center"><a href="<?php echo home_url(); ?>/interview/tokyobelle/">続きを読む</a></p>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img alt="Beautynesia" src="https://tricruise.id/wp/wp-content/uploads/2022/09/beautynesia_visual.jpg"></p>
+								<div class="txt_box">
+									<p class="ttl">Beautynesia様</p>
+									<p class="txt">インドネシアの財閥グループに参画したBeautynesiaの強みとインフルエンサーマーケティングの秘訣</p>
+									<p class="new_btn01 center"><a href="<?php echo home_url(); ?>/interview/beautynesia/">続きを読む</a></p>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img alt="グリコ" src="https://tricruise.id/wp/wp-content/uploads/2022/09/main-visual-glico.jpg"></p>
+								<div class="txt_box">
+									<p class="ttl">グリコ様</p>
+									<p class="txt">グリコはどのようにインドネシアのお菓子市場でマーケティングを実践してきたのか</p>
+									<p class="new_btn01 center"><a href="<?php echo home_url(); ?>/interview/glico/">続きを読む</a></p>
+								</div>
+							</li>
+							
+							
+						</ul>
+						<!--<p class="new_btn01 center size_l"><a href="#">すべて見る</a></p>-->
+					</div>
+				</section>
+				<!-- index_new_interview -->
+			  
+				<!-- 弊社でご提供可能なWeb広告の一例 -->
+				<section class="index_new_webad area">
+					<div class="inner1200">
+						<h3 class="new_ttl01">弊社でご提供可能な<span class="orange">Web広告の一例</span></h3>
+
+						<div class="index_new_webad_inner">
+							<ul class="netad_sns_list netad_sns_list_fore">
+								<li>
+									<dl>
+										<dt>
+											<h3>Google広告</h3>
+											<p class="img"><img alt="Google広告" src="<?php echo get_theme_file_uri(); ?>/img/internet-advertising-agency/ad_i01.png"></p>
+										</dt>
+										<dd>
+											<p>インドネシアにおいてもGoogle広告（リスティング、ディスプレイ等）は主要なWeb広告の1つです。</p>
+										</dd>
+									</dl>
+								</li>
+
+								<li>
+									<dl>
+										<dt>
+											<h3>Instagram広告</h3>
+											<p class="img"><img alt="Google広告" src="<?php echo get_theme_file_uri(); ?>/img/internet-advertising-agency/ad_i02.png"></p>
+										</dt>
+										<dd>
+											<p>インドネシアではFacebookよりもInstagramの方が若者を中心に人気です。</p>
+										</dd>
+									</dl>
+								</li>
+								
+								<li>
+									<dl>
+										<dt>
+											<h3>Facebook広告</h3>
+											<p class="img"><img alt="Facebook広告" src="<?php echo get_theme_file_uri(); ?>/img/internet-advertising-agency/ad_i03.png"></p>
+											
+										</dt>
+										<dd>
+											<p>ターゲティング精度の高い広告で、見込み客への効率的なアプローチが可能なのは日本と同じです。</p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt>
+											<h3>TikTok広告</h3>
+											<p class="img"><img alt="TikTok広告" src="<?php echo get_theme_file_uri(); ?>/img/internet-advertising-agency/ad_i04.png"></p>
+											
+										</dt>
+										<dd>
+											<p>ビジュアルを活用したブランディング戦略で、若年層や女性ユーザーに対して最適な広告を配信できます。</p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt>
+											<h3>YouTube広告</h3>
+											<p class="img"><img alt="YouTube広告" src="<?php echo get_theme_file_uri(); ?>/img/internet-advertising-agency/ad_i05.png"></p>
+											
+										</dt>
+										<dd>
+											<p>地域やユーザーの行動傾向、興味・関心などから自社の見込み客へ的確にアプローチできます。</p>
+										</dd>
+									</dl>
+								</li>
+								<li class="last">
+									<p class="img"><img alt="Webe広告" src="<?php echo get_theme_file_uri(); ?>/img/index_new/index_new_webad01.png"></p>
+									
+								</li>
+								
+							</ul>
+						</div>
+						
+						
+					</div>
+				</section>
+				<!-- //弊社でご提供可能なWeb広告の一例 -->
+
+				<!-- 資料ダウンロード-->
+		<section class="area_nopad area">
+				<div class="influencer-marketing_cont02 area bg_orange01">
+					<div class="inner1200">
+					<h3 class="new_ttl01">お役立ち資料の<span class="orange">無料ダウンロード</span></h3>
+					<div id="white-paper-download" class="index_white-paper-download">
+					<ul class="download_list">
+						<li>
+							<div class="img_box">
+								<div class="img_box_in">
+									<div class="book_txt_box">
+										<p class="download_img"><img src="<?php echo get_theme_file_uri(); ?>/img/common/book_bg02k.png"></p>
+										<p class="book_txt02">インドネシアで初めての<br>Webマーケティング</p>
+									</div>
+								</div>
+							</div>
+							<div class="txt_box">
+								<p class="ttl">まずはWeb広告の運用から</p>
+								<p class="txt">Googleのリスティング広告やインスタグラム広告などについて魅力やメリットを簡単に整理しています。</p>
+								<div class="wp-container-4 wp-block-buttons">
+									<div class="wp-block-button">
+										<a class="wp-block-button__link has-luminous-vivid-orange-background-color has-background" href="<?php echo home_url(); ?>/white-paper-download/white-paper-web-marketing/" download="">資料ダウンロード</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="img_box">
+								<div class="img_box_in">
+									<div class="book_txt_box">
+										<p class="download_img"><img src="<?php echo get_theme_file_uri(); ?>/img/common/book_bg02k.png"></p>
+										<p class="book_txt02">インドネシアへの進出<br>6ヶ月検証パッケージプラン</p>
+									</div>
+								</div>
+							</div>
+							<div class="txt_box">
+								<p class="ttl">インドネシア進出を検討中の企業様向け</p>
+								<p class="txt">単発的な調査ではなく、6ヶ月間継続して進出可否を見極めるサービスプランです。</p>
+								<div class="wp-container-4 wp-block-buttons">
+									<div class="wp-block-button">
+										<a class="wp-block-button__link has-luminous-vivid-orange-background-color has-background" href="<?php echo home_url(); ?>/white-paper-download/entry-plan/" download="">資料ダウンロード</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="img_box">
+								<div class="img_box_in">
+									<div class="book_txt_box">
+										<p class="download_img"><img src="<?php echo get_theme_file_uri(); ?>/img/common/book_bg02k.png"></p>
+										<p class="book_txt02">インドネシアでの会社設立<br>外資法人・内資法人</p>
+									</div>
+								</div>
+							</div>
+							<div class="txt_box">
+								<p class="ttl">難易度が高いインドネシアの会社設立</p>
+								<p class="txt">インドネシアで外国資本の会社を作ろうとすると資本金だけで約1億円が必要です。</p>
+								<div class="wp-container-4 wp-block-buttons">
+									<div class="wp-block-button">
+										<a class="wp-block-button__link has-luminous-vivid-orange-background-color has-background" href="<?php echo home_url(); ?>/white-paper-download/white-paper-founding-a-company/" download="">資料ダウンロード</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						
+					</ul>
+				</div>
+
+				<p class="tenji_btns index_white-paper-download_btn"><a href="<?php echo home_url(); ?>/white-paper-download/">その他資料はこちらから</a></p>
+					
+					</div>
+				</div>
+			</section>
+			<!-- //資料ダウンロード -->
+
+
+			<section class="index_new_media area">
+								<div class="inner1000">
+									<h3 class="new_ttl01"><span class="orange">メディア紹介</span>実績</h3>
+									<div class="media_press_box">
+											<ul>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index_new/media08.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index_new/media07.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media11.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media09.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media10.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media12.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media01.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media02.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media03.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media04.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media05.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media06.png"></li>
+												
+											</ul>
+										</div>
+									
+								</div>
+							</section>
+							<!-- index_new_media -->
+
+
+					<!--<div id="contact_new_area">
+					<section class="new_contact_box new_contact_box_index area">
+									<div class="inner">
+										<h4 class="contact_ttl contact_ttl_new">初回のお問い合わせは無料です<br>まずはお気軽にお問い合わせください</h4>
+										<p class="contact_new_sub">ECzineや日本流通産業新聞からインタビューを受けました</p>
+										<p class="contact_new_btns"><a href="<?php echo home_url(); ?>/contact/"><img alt="お問い合わせはこちら" src="<?php echo get_theme_file_uri(); ?>/img/cross-border-e-commerce/new2023/new_btn01.png"></a></p>
+									   
+									</div>
+								</section>
+					</div>-->
+							<!-- contact_new end -->
+
+
+
+				<!-- New_CTA -->
+				<div class="n_cta">
+					<div class="n_cta_L">
+						<div class="n_cta_L_inner">
+							<p class="n_cta_L_ttl">インドネシア市場にて<br class="pc">成功させるコツがある</p>
+							<dl class="n_cta_L_cont">
+								<dt><img src="<?php echo get_theme_file_uri(); ?>/img/index_new/n_cta.png" alt="インドネシア市場にて成功させるコツがある"></dt>
+								<dd>
+									<p class="n_cta_L_ttl02">これまでに<br>200社以上の<br>進出課題を解決</p>
+								</dd>
+							</dl>
+							<p class="n_cta_L_bottom">福岡市やさっぽろ産業振興財団などの行政連携もしています</p>
+						</div>
+					</div>
+
+					<div class="n_cta_R">
+						<div class="n_cta_R_inner">
+							<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+							<script>
+							hbspt.forms.create({
+								region: "na1",
+								portalId: "20720568",
+								formId: "016cb914-cbf9-4a7b-8bf9-40dd1701cfd4"
+							});
+							</script>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- //New_CTA -->
+
+				<!-- index_new_tenji -->
+				<section class="index_new_newsletter area bg02">
+								<div class="inner1000">
+									<div class="new_letter_box">
+										<p class="img"><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index_new/news_letter.png"></p>
+										<div class="txt_box">
+											<p class="ttl">インドネシアについての<br class="sp">お役立ちニュースレター</p>
+											<p class="txt">カケモチはインドネシアへの進出支援や、インドネシア国内におけるWebマーケティング支援、あるいはインドネシア人向けコミュニティの運営をしていることから、インドネシアでビジネスを行うために重要なトピックに厳選してニュースをお届けすることができます。</p>
+											<p class="new_btn01 right"><a href="<?php echo home_url(); ?>/expatriate/newsletter/">詳細はこちらから</a></p>
+										</div>
+									</div>
+								</div>
+							</section>
+							<!-- index_new_newsletter -->
+
+				
+
+				<?php get_template_part('news'); ?>
+				<?php get_template_part('news_column'); ?>
+				<?php get_template_part('search'); ?>
+
+							
+			</article>
+			<!-- article end -->
+		</main>
+		
+<?php get_template_part('parts/contact/contact'); ?>
+
+
+<div id="contact_box" class="area">
+			<div class="inner1000">				
+				<div class="download">
+					<div class="ttl_box">
+						<p class="icon"><img alt="無料" src="<?php echo get_theme_file_uri(); ?>/img/common/icon_free.png"></p>
+						<p class="ttl">インドネシア進出の魅力とリスク</p>
+					</div>
+					<a href="<?php echo home_url(); ?>/white-paper-download/white-paper-attractiveness-of-the-indonesian-economy/"><img alt="資料ダウンロード" src="<?php echo get_theme_file_uri(); ?>/img/common/btn_download.png"></a>
+				</div>
+				<ul class="fotter_new_banners">
+					<li><a href="<?php echo home_url(); ?>/seminar/overseas-expansion-to-indonesia/"><img alt="在日本の企業向けセミナー" src="<?php echo get_theme_file_uri(); ?>/img/column/seminar_banner01.jpg"></a></li>
+					<li><a href="<?php echo home_url(); ?>/seminar/web-marketing-in-indonesia/"><img alt="在インドネシアの企業向けセミナー" src="<?php echo get_theme_file_uri(); ?>/img/column/seminar_banner02.jpg"></a></li>
+				</ul>
+			</div>
+		</div>
+
+
+<?php get_template_part('about'); ?>
+<?php 
+$args['sidebar']=$sidebar;
+get_footer('',$args);
+?>
+
+		<div id="page_top">
+			<span></span>
+		</div>
+		<!-- page_top end -->		
+		
+	</div>
+	<!-- wrapper end -->
+<?php get_template_part('before_close_body'); ?>
+<?php wp_footer(); ?>
+</body>
+</html>

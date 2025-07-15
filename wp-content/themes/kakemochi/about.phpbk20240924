@@ -1,0 +1,14 @@
+		<div id="about" class="area">
+			<div class="inner">
+				<h3 class="ttl">カケモチのサービスについて<br class="sp">詳しく紹介しているページ</h3>
+				<ul>
+					<li><a href="<?php echo home_url(); ?>/overseas-expansion/indonesian-market-research/">市場調査を15万円から実施できます</a></li>
+					<li><a href="<?php echo home_url(); ?>/overseas-expansion/cross-border-e-commerce/">月額5万円でセカンドオピニオンを行います</a></li>
+					<li><a href="<?php echo home_url(); ?>/overseas-expansion/founding-of-a-company/">会社設立を50万円程度でトータル支援します</a></li>
+					<li><a href="<?php echo home_url(); ?>/digital-marketing/instagram-ad-management-services/">インスタ広告の運用代行を1万円からお請けします</a></li>
+					<li><a href="<?php echo home_url(); ?>/service/sales-agent-for-cosmetics/">インドネシアで化粧品の販売代行をしています</a></li>
+					<li><a href="<?php echo home_url(); ?>/service/kepojepang/">日本語学習中のインドネシア人10万人にリーチできます</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- about end -->

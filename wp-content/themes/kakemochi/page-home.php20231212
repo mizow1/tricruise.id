@@ -1,0 +1,522 @@
+<?php
+/*
+Template Name: トップページ
+*/
+?>
+
+<?php get_header(); ?>
+<body>
+<?php get_template_part('after_open_body'); ?>
+	<div id="wrapper">
+<?php get_template_part('gnav'); ?>
+<?php get_template_part('menu'); ?>
+<?php 
+if(get_the_post_thumbnail_url($post->ID, "full")){
+	$mv = get_the_post_thumbnail_url($post->ID, "full");
+	$mv_css =  ' style="background:url('.$mv.')"';
+}
+?>		
+		
+		<main id="index_new">
+			<article>
+				<section class="index_new_visual area">
+					<div class="inner1000">
+						<div class="txt_box">
+							<p class="visual_ttl01 orange">福岡本社</p>
+							<h2 class="visual_ttl02">インドネシア市場に特化した<br>進出支援とマーケティング</h2>
+							<p class="visual_txt">カケモチは、<br>
+							日本語が話せるインドネシア人従業員と共に<br>
+							各種のソリューションサービスを提供している<br>
+							多国籍企業です。</p>
+						</div>
+						<div class="online_visual">
+							
+
+							<p class="online_visual_img"><a href="<?php echo home_url(); ?>/monthly-magazine/"><img alt="インドネシアのマーケティング情報に特化した月刊誌" src="<?php echo get_theme_file_uri(); ?>/img/index/mk_visual.png"></a></p>
+						</div>
+					</div>
+				</section>
+				<!-- index_new_visual -->
+			  
+				<section class="index_new_service_img area bg01">
+					<div class="inner">
+						<div class="cross_border_new2023_cont01_fukuoka index_fukuoka">
+    
+							<p>2023年5月15日に福岡市海外ECトライアル推進事業の市内パートナー企業に選定いただきました。福岡市と連携しながら、企業様の越境ECを継続的に支援していきます。また、福岡市内の企業様に限らず、インドネシア進出を検討されている企業様からのご相談には今まで通り幅広くお請けしております。</p>
+							<div class="cross_border_new2023_cont01_fukuoka_logo_list">
+								<div class="cross_border_new2023_cont01_fukuoka_logo_list01"><img alt="福岡市" src="<?php echo get_theme_file_uri(); ?>/img/cross-border-e-commerce/new2023/logo-header.png"></div>
+								<div class="cross_border_new2023_cont01_fukuoka_logo_list02"><img  alt="カケモチ" src="<?php echo get_theme_file_uri(); ?>/img/common/header_logo.png"></div>
+								<div class="cross_border_new2023_cont01_fukuoka_logo_list03 pc"><span class="orange">●</span>詳細は<a href="https://www.city.fukuoka.lg.jp/keizai/kokusaikeizai/business/kaigai_ec_trial_partner.html#ichiran" target="
+									" rel="noopener">こちら</a></div>
+							</div>
+							<div class="cross_border_new2023_cont01_fukuoka_logo_list03 sp"><span class="orange">●</span>詳細は<a href="https://www.city.fukuoka.lg.jp/keizai/kokusaikeizai/business/kaigai_ec_trial_partner.html#ichiran" target="
+								" rel="noopener">こちら</a></div>
+						   
+						</div>
+					</div>
+				</section>
+				<!-- index_new_service_img -->
+				<!--お客様の声移動-->
+				
+				<!--<section class="index_new_voice area">
+					<div class="inner1000">
+						<h3 class="new_ttl01">お客様の声</h3>
+						<ul class="new_voice_list">
+							<li>
+								<p class="img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAADIAQAAAAB6pOH4AAAAAnRSTlMAAHaTzTgAAAAeSURBVFjD7cExAQAAAMKg9U9tB2+gAAAAAAAAAOA3HngAARco3ZkAAAAASUVORK5CYII=" alt="" data-src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/interview01.png" decoding="async" class="lazyload"><noscript><img src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/interview01.png" alt="" data-eio="l"></noscript></p>
+								<div class="txt_box">
+									<p class="logo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAfAQAAAABmbdqyAAAAAnRSTlMAAHaTzTgAAAAPSURBVCjPY2AYBaNg+AMAAugAASKzPoEAAAAASUVORK5CYII=" alt="" data-src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/voice01.png" decoding="async" class="lazyload"><noscript><img src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/voice01.png" alt="" data-eio="l"></noscript></p>
+									<p class="name">1株式会社</p>
+									<div class="sp hover_box_sp">
+										<div class="txt_in">
+											<p class="txt01">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+											<p class="txt02">課題／〇〇〇〇が短縮できない</p>
+										</div>
+										<p class="new_btn01 center"><a href="#">続きを読む</a></p>
+									</div>
+								</div>
+								<div class="hover_box">
+									<div class="txt_in">
+										<p class="txt01">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+										<p class="txt02">課題／〇〇〇〇が短縮できない</p>
+									</div>
+									<p class="new_btn01 center"><a href="#">続きを読む</a></p>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAADIAQAAAAB6pOH4AAAAAnRSTlMAAHaTzTgAAAAeSURBVFjD7cExAQAAAMKg9U9tB2+gAAAAAAAAAOA3HngAARco3ZkAAAAASUVORK5CYII=" alt="" data-src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/interview02.png" decoding="async" class="lazyload"><noscript><img src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/interview02.png" alt="" data-eio="l"></noscript></p>
+								<div class="txt_box">
+									<p class="logo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFMAAAApAQAAAABhcCgKAAAAAnRSTlMAAHaTzTgAAAAOSURBVBjTY2AYBSMFAAAB7AAB9Z3HhQAAAABJRU5ErkJggg==" alt="" data-src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/voice02.png" decoding="async" class="lazyload"><noscript><img src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/voice02.png" alt="" data-eio="l"></noscript></p>
+									<p class="name">2株式会社</p>
+									<div class="sp hover_box_sp">
+										<div class="txt_in">
+											<p class="txt01">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+											<p class="txt02">課題／〇〇〇〇が短縮できない</p>
+										</div>
+										<p class="new_btn01 center"><a href="#">続きを読む</a></p>
+									</div>
+								</div>
+								<div class="hover_box">
+									<div class="txt_in">
+										<p class="txt01">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+										<p class="txt02">課題／〇〇〇〇が短縮できない</p>
+									</div>
+									<p class="new_btn01 center"><a href="#">続きを読む</a></p>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAADIAQAAAAB6pOH4AAAAAnRSTlMAAHaTzTgAAAAeSURBVFjD7cExAQAAAMKg9U9tB2+gAAAAAAAAAOA3HngAARco3ZkAAAAASUVORK5CYII=" alt="" data-src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/interview03.png" decoding="async" class="lazyload"><noscript><img src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/interview03.png" alt="" data-eio="l"></noscript></p>
+								<div class="txt_box">
+									<p class="logo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF8AAAAgAQAAAABcQ5lMAAAAAnRSTlMAAHaTzTgAAAAOSURBVBjTY2AYBYMZAAABoAABhi6iFwAAAABJRU5ErkJggg==" alt="" data-src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/voice03.png" decoding="async" class="lazyload"><noscript><img src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/voice03.png" alt="" data-eio="l"></noscript></p>
+									<p class="name">3株式会社</p>
+									<div class="sp hover_box_sp">
+										<div class="txt_in">
+											<p class="txt01">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+											<p class="txt02">課題／〇〇〇〇が短縮できない</p>
+										</div>
+										<p class="new_btn01 center"><a href="#">続きを読む</a></p>
+									</div>
+								</div>
+								<div class="hover_box">
+									<div class="txt_in">
+										<p class="txt01">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+										<p class="txt02">課題／〇〇〇〇が短縮できない</p>
+									</div>
+									<p class="new_btn01 center"><a href="#">続きを読む</a></p>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAADIAQAAAAB6pOH4AAAAAnRSTlMAAHaTzTgAAAAeSURBVFjD7cExAQAAAMKg9U9tB2+gAAAAAAAAAOA3HngAARco3ZkAAAAASUVORK5CYII=" alt="" data-src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/interview01.png" decoding="async" class="lazyload"><noscript><img src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/interview01.png" alt="" data-eio="l"></noscript></p>
+								<div class="txt_box">
+									<p class="logo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAfAQAAAABmbdqyAAAAAnRSTlMAAHaTzTgAAAAPSURBVCjPY2AYBaNg+AMAAugAASKzPoEAAAAASUVORK5CYII=" alt="" data-src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/voice01.png" decoding="async" class="lazyload"><noscript><img src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/voice01.png" alt="" data-eio="l"></noscript></p>
+									<p class="name">4株式会社</p>
+									<div class="sp hover_box_sp">
+										<div class="txt_in">
+											<p class="txt01">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+											<p class="txt02">課題／〇〇〇〇が短縮できない</p>
+										</div>
+										<p class="new_btn01 center"><a href="#">続きを読む</a></p>
+									</div>
+								</div>
+								<div class="hover_box">
+									<div class="txt_in">
+										<p class="txt01">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+										<p class="txt02">課題／〇〇〇〇が短縮できない</p>
+									</div>
+									<p class="new_btn01 center"><a href="#">続きを読む</a></p>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAADIAQAAAAB6pOH4AAAAAnRSTlMAAHaTzTgAAAAeSURBVFjD7cExAQAAAMKg9U9tB2+gAAAAAAAAAOA3HngAARco3ZkAAAAASUVORK5CYII=" alt="" data-src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/interview02.png" decoding="async" class="lazyload"><noscript><img src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/interview02.png" alt="" data-eio="l"></noscript></p>
+								<div class="txt_box">
+									<p class="logo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFMAAAApAQAAAABhcCgKAAAAAnRSTlMAAHaTzTgAAAAOSURBVBjTY2AYBSMFAAAB7AAB9Z3HhQAAAABJRU5ErkJggg==" alt="" data-src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/voice02.png" decoding="async" class="lazyload"><noscript><img src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/voice02.png" alt="" data-eio="l"></noscript></p>
+									<p class="name">5株式会社</p>
+									<div class="sp hover_box_sp">
+										<div class="txt_in">
+											<p class="txt01">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+											<p class="txt02">課題／〇〇〇〇が短縮できない</p>
+										</div>
+										<p class="new_btn01 center"><a href="#">続きを読む</a></p>
+									</div>
+								</div>
+								<div class="hover_box">
+									<div class="txt_in">
+										<p class="txt01">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+										<p class="txt02">課題／〇〇〇〇が短縮できない</p>
+									</div>
+									<p class="new_btn01 center"><a href="#">続きを読む</a></p>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAADIAQAAAAB6pOH4AAAAAnRSTlMAAHaTzTgAAAAeSURBVFjD7cExAQAAAMKg9U9tB2+gAAAAAAAAAOA3HngAARco3ZkAAAAASUVORK5CYII=" alt="" data-src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/interview03.png" decoding="async" class="lazyload"><noscript><img src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/interview03.png" alt="" data-eio="l"></noscript></p>
+								<div class="txt_box">
+									<p class="logo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF8AAAAgAQAAAABcQ5lMAAAAAnRSTlMAAHaTzTgAAAAOSURBVBjTY2AYBYMZAAABoAABhi6iFwAAAABJRU5ErkJggg==" alt="" data-src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/voice03.png" decoding="async" class="lazyload"><noscript><img src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/voice03.png" alt="" data-eio="l"></noscript></p>
+									<p class="name">6株式会社</p>
+									<div class="sp hover_box_sp">
+										<div class="txt_in">
+											<p class="txt01">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+											<p class="txt02">課題／〇〇〇〇が短縮できない</p>
+										</div>
+										<p class="new_btn01 center"><a href="#">続きを読む</a></p>
+									</div>
+								</div>
+								<div class="hover_box">
+									<div class="txt_in">
+										<p class="txt01">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+										<p class="txt02">課題／〇〇〇〇が短縮できない</p>
+									</div>
+									<p class="new_btn01 center"><a href="#">続きを読む</a></p>
+								</div>
+							</li>
+						</ul>
+						<p class="new_btn01 center size_l"><a href="#">すべて見る</a></p>
+					</div>
+				</section>-->
+				<!-- index_new_voice -->
+
+
+				<!--//お客様の声移動-->
+			  
+				<section class="index_new_service_new area">
+					<div class="inner">
+						<h3 class="new_ttl01">インドネシアへの<span class="orange">進出支援</span></h3>
+
+						<ul class="new_service_list_new">
+							<li>
+								<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/index_new/service_new01.png" alt="インドネシア市場調査"></p>
+								<div class="txt_box">
+									<div class="txt_box_in">
+										<h4 class="new_ttl02">インドネシア市場調査</h4>
+										<p class="txt">大手の調査会社にインドネシアの市場調査をしてもらうと、100ページ以上の分厚いレポートに対して150万円や200万円といった金額を請求されます。その金額感だとPDCAを回すために何度も調査を実施することが難しいので、弊社では費用を抑えた市場調査をご提案できます。</p>
+										<p class="new_btn01"><a href="<?php echo home_url(); ?>/overseas-expansion/indonesian-market-research/">詳しく見る</a></p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/index_new/service_new02.png" alt="インドネシア現地視察"></p>
+								<div class="txt_box">
+									<div class="txt_box_in">
+										<h4 class="new_ttl02">インドネシア現地視察</h4>
+										<p class="txt">インドネシア市場の有望性や成長性を多くの記事やテレビなどで見かけます。ところが、どんなに多くの情報を仕入れても、実際にインドネシアを訪れて現地の熱量を肌で感じないとわからない部分もたくさんあります。そういった現地視察をコーディネートさせていただきます。</p>
+										<p class="new_btn01"><a href="<?php echo home_url(); ?>/overseas-expansion/inspection-tour-to-indonesia/">詳しく見る</a></p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/index_new/service_new03.png" alt="インドネシア越境EC"></p>
+								<div class="txt_box">
+									<div class="txt_box_in">
+										<h4 class="new_ttl02">インドネシア越境EC</h4>
+										<p class="txt">越境ECと聞くと、中国、韓国、台湾といった国々がまず頭に思い浮かぶ人が多いです。多くの人がまず最初に思い浮かべるということは、それだけ競争も激しいです。その競争を避けて、東南アジア最大の市場であるインドネシアへの越境ECを弊社ではご提案しております。</p>
+										<p class="new_btn01"><a href="<?php echo home_url(); ?>/overseas-expansion/cross-border-e-commerce/">詳しく見る</a></p>
+									</div>
+								</div>
+							</li>
+
+						</ul>
+
+					</div>
+				</section>
+				<!-- index_new_service -->
+			  
+				<section class="index_new_service_new area">
+					<div class="inner">
+						<h3 class="new_ttl01">インドネシア進出支援の<br class="sp"><span class="orange">その他サービス</span></h3>
+
+						<ul class="new_service_list_new new_service_list_new02">
+							<li>
+								<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/index_new/new_service_list_new02_img01.png" alt="壁打ち支援"></p>
+								<div class="txt_box">
+									<div class="txt_box_in">
+										<h4 class="new_ttl02">壁打ち支援</h4>
+										<p class="new_btn01"><a href="<?php echo home_url(); ?>/overseas-expansion/bounce-ideas-off-client/">詳しく見る</a></p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/index_new/new_service_list_new02_img02.png" alt="展示会出展"></p>
+								<div class="txt_box">
+									<div class="txt_box_in">
+										<h4 class="new_ttl02">展示会出展</h4>
+										<p class="new_btn01"><a href="<?php echo home_url(); ?>/exhibition-indonesia/">詳しく見る</a></p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/index_new/new_service_list_new02_img03.png" alt="会社設立"></p>
+								<div class="txt_box">
+									<div class="txt_box_in">
+										<h4 class="new_ttl02">会社設立</h4>
+										<p class="new_btn01"><a href="<?php echo home_url(); ?>/overseas-expansion/founding-of-a-company/">詳しく見る</a></p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/index_new/new_service_list_new02_img04.png" alt="ビザ申請"></p>
+								<div class="txt_box">
+									<div class="txt_box_in">
+										<h4 class="new_ttl02">ビザ申請</h4>
+										<p class="new_btn01"><a href="<?php echo home_url(); ?>/overseas-expansion/founding-of-a-company/">詳しく見る</a></p>
+									</div>
+								</div>
+							</li>
+
+						</ul>
+
+					</div>
+				</section>
+				<!-- index_new_service -->
+			  
+				<section class="index_new_interview area bg02">
+					<div class="inner1000">
+						<h3 class="new_ttl01">インドネシアで活躍されている<br class="sp"><span class="orange">注目の企業様</span>へのインタビュー</h3>
+						<ul class="new_interview_list new_interview_list_up">
+						<li>
+								<p class="img"><img alt="アジアクエスト" src="https://tricruise.id/wp/wp-content/uploads/2023/06/aqi.co_.id_visual.jpg"></p>
+								<div class="txt_box">
+									<p class="ttl">アジアクエスト様</p>
+									<p class="txt">「なぜそれをやるのか」をしっかりと伝え、挑戦を歓迎する。Webシステム開発やサイト制作を手がけるアジアクエストに人が集まる理由</p>
+									<p class="new_btn01 center"><a href="<?php echo home_url(); ?>/interview/asiaquest/">続きを読む</a></p>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img alt="SENSHA" src="https://tricruise.id/wp/wp-content/uploads/2023/05/bessho_visual-1.jpg"></p>
+								<div class="txt_box">
+									<p class="ttl">SENSHA様</p>
+									<p class="txt">お客さんやスタッフとの綿密なコミュニケーションが成功の鍵。インドネシアで洗車とコーティングを提供する「SENSHA」が歩んだ道のり</p>
+									<p class="new_btn01 center"><a href="<?php echo home_url(); ?>/interview/sensha/">続きを読む</a></p>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img alt="TOKYO BELLE" src="https://tricruise.id/wp/wp-content/uploads/2022/10/tokobelle_visual.jpg"></p>
+								<div class="txt_box">
+									<p class="ttl">TOKYO BELLE様</p>
+									<p class="txt">なぜスラバヤで美容サロン？グロースから売却までを経験した、元金融ビジネスマンから見るインドネシアの美容業界</p>
+									<p class="new_btn01 center"><a href="<?php echo home_url(); ?>/interview/tokyobelle/">続きを読む</a></p>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img alt="Beautynesia" src="https://tricruise.id/wp/wp-content/uploads/2022/09/beautynesia_visual.jpg"></p>
+								<div class="txt_box">
+									<p class="ttl">Beautynesia様</p>
+									<p class="txt">インドネシアの財閥グループに参画したBeautynesiaの強みとインフルエンサーマーケティングの秘訣</p>
+									<p class="new_btn01 center"><a href="<?php echo home_url(); ?>/interview/beautynesia/">続きを読む</a></p>
+								</div>
+							</li>
+							<li>
+								<p class="img"><img alt="グリコ" src="https://tricruise.id/wp/wp-content/uploads/2022/09/main-visual-glico.jpg"></p>
+								<div class="txt_box">
+									<p class="ttl">グリコ様</p>
+									<p class="txt">グリコはどのようにインドネシアのお菓子市場でマーケティングを実践してきたのか</p>
+									<p class="new_btn01 center"><a href="<?php echo home_url(); ?>/interview/glico/">続きを読む</a></p>
+								</div>
+							</li>
+							
+							
+						</ul>
+						<!--<p class="new_btn01 center size_l"><a href="#">すべて見る</a></p>-->
+					</div>
+				</section>
+				<!-- index_new_interview -->
+
+				<div id="contact_new_area">
+					<section class="new_contact_box new_contact_box_index area">
+									<div class="inner">
+										<h4 class="contact_ttl contact_ttl_new">初回のお問い合わせは無料です<br>まずはお気軽にお問い合わせください</h4>
+										<p class="contact_new_sub">ECzineや日本流通産業新聞からインタビューを受けました</p>
+										<p class="contact_new_btns"><a href="<?php echo home_url(); ?>/contact/"><img alt="お問い合わせはこちら" src="<?php echo get_theme_file_uri(); ?>/img/cross-border-e-commerce/new2023/new_btn01.png"></a></p>
+									   
+									</div>
+								</section>
+					</div>
+							<!-- contact_new end -->
+							<section class="index_new_media area">
+								<div class="inner1000">
+									<h3 class="new_ttl01"><span class="orange">メディア紹介</span>実績</h3>
+									<div class="media_press_box">
+											<ul>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index_new/media08.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index_new/media07.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media11.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media09.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media10.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media12.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media01.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media02.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media03.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media04.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media05.png"></li>
+												<li><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index/media06.png"></li>
+												
+											</ul>
+										</div>
+									
+								</div>
+							</section>
+							<!-- index_new_media -->
+
+
+			  
+				
+			  
+							<section class="index_new_attracting area">
+								<div class="inner1000">
+									<h3 class="new_ttl01">インドネシア人の<span class="orange">集客支援</span></h3>
+									<p class="top_txt">インドネシア進出支援に加えて、インドネシア国内におけるWeb集客支援も行っています。多言語サイトの制作からはじまり、コンテンツマーケティング、SEO対策、Web広告運用、SNSアカウント運用など幅広くWebマーケティング施策を支援することができます。もちろん、SEO対策のみやWeb広告運用のみなど、個別のWebマーケティング施策だけも対応しています。まずはお気軽にご連絡をいただければと思います。</p>
+									<ul class="new_attraction_list">
+										<li>
+											<p class="ttl">コンテンツマーケティング</p>
+											<p class="icon"><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index_new/attracting01.png"></p>
+											<p class="txt">貴社のお客様（見込み客も含む）に対して、適切な情報を適切なタイミングで届けていくことで、貴社のファンになってもらうことを目的としています。そのための戦略の立案から実行支援までを総合的に行っています。</p>
+										</li>
+										<li>
+											<p class="ttl">インフルエンサーマーケティング</p>
+											<p class="icon"><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index_new/attracting02.png"></p>
+											<p class="txt">インフルエンサー（影響力を持つ人物）の影響力を活用したマーケティング手法は近年ますます重要度を増しています。ただ、貴社のブランドイメージと乖離するような人物を起用すると効果が薄いため、その選定からお手伝いをしています。</p>
+										</li>
+										<li>
+											<p class="ttl">翻訳業務</p>
+											<p class="icon"><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index_new/attracting03.png"></p>
+											<p class="txt">英語への翻訳はもちろんのこと、中国語、韓国語、ベトナム語、インドネシア語など複数の言語への翻訳が可能です。それぞれの国で日本語が得意なスタッフが働いており、活きた言葉に翻訳をしていきます。</p>
+										</li>
+										<li>
+											<p class="ttl"><a href="<?php echo home_url(); ?>/digital-marketing/internet-advertising-agency/">広告運用</a></p>
+											<p class="icon"><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index_new/attracting04.png"></p>
+											<p class="txt">Google広告はもちろん、Facebook広告やInstagram広告などのSNS広告まで幅広く貴社のサービスや製品をお客様にお届けする支援をしています。貴社の予算に合った広告出稿が可能ですので、一度ご相談をいただければと思います。</p>
+										</li>
+										<li>
+											<p class="ttl">SNS運用</p>
+											<p class="icon"><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index_new/attracting05.png"></p>
+											<p class="txt">近年、企業の公式SNS運用は非常に難度が高くなってきています。良かれと思って行ったSNS運用が逆に貴社のブランドを毀損する可能性もあります。炎上しないようなSNS運用をコンサルティングさせていただきます。</p>
+										</li>
+										<li>
+											<p class="ttl"><a href="<?php echo home_url(); ?>/digital-marketing/access-analysis/">アクセス解析</a></p>
+											<p class="icon"><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index_new/attracting06.png"></p>
+											<p class="txt">SEO対策や広告運用や各種SNS運用など、施策をやりっぱなしで終わりになっていないでしょうか。数字をもとにアクセス状況を分析し、施策の良し悪しを検討した上で次に活かすことが大事です。PDCAを回すお手伝いをしていきます。</p>
+										</li>
+									</ul>
+								</div>
+							</section>
+							<!-- index_new_attracting -->
+
+<!-- index_new_tenji -->
+<section class="index_new_tenji area">
+								<div class="inner1000">
+									<h3 class="new_ttl01">インドネシアで開催されている<br class="sp"><span class="orange">展示会のレポート</span></h3>
+									<ul class="index_new_tenji_list">
+										<li>
+											<a href="<?php echo home_url(); ?>/exhibition-indonesia/food-beverage-indonesia/">
+											<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/index_new/tenji_th01.png" alt=""></p>
+											<div class="tenji_list_txtbox">
+											<p class="tenji_list_ttl">FOOD + BEVERAGE INDONESIA 2023</p>
+											<p class="txt">「フード＋ベバレッジインドネシア」は、食品加工技術サプライヤー、食品原材料生産者、製品流通業者など食品関連事業者が集う大規模イベントです。</p>
+											</div>
+											</a>
+										</li>
+										<li>
+											<a href="<?php echo home_url(); ?>/exhibition-indonesia/periklindo-electric-vehicle-show/">
+											<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/index_new/tenji_th02.png" alt=""></p>
+											<div class="tenji_list_txtbox">
+											<p class="tenji_list_ttl">PERIKLINDO ELECTRIC VEHICLE SHOW</p>
+											<p class="txt">PERIKLINDO電気自動車ショーは、電気自動車や電気バイクを広くインドネシアの人々に紹介し、電気自動車業界の発展を推進するための展示会です。</p>
+											</div>
+											</a>
+										</li>
+										<li>
+											<a href="<?php echo home_url(); ?>/exhibition-indonesia/china-homelife-indonesia/">
+											<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/index_new/tenji_th03.png" alt="China Homelife Indonesia 2023 "></p>
+											<div class="tenji_list_txtbox">
+											<p class="tenji_list_ttl">China Homelife Indonesia 2023 </p>
+											<p class="txt">チャイナホームライフ・インドネシアは、中国メーカーが新製品を紹介するための展示会です。訪問者は様々なカテゴリーの最新製品を知ることができます。</p>
+											</div>
+											</a>
+										</li>
+										
+									</ul>
+									<p class="tenji_btns"><a href="<?php echo home_url(); ?>/exhibition-indonesia/">その他開催予定の展示会はこちら</a></p>
+								</div>
+							</section>
+							<!-- index_new_tenji -->
+							<section class="index_new_newsletter area bg02">
+								<div class="inner1000">
+									<div class="new_letter_box">
+										<p class="img"><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index_new/news_letter.png"></p>
+										<div class="txt_box">
+											<p class="ttl">インドネシアについての<br class="sp">お役立ちニュースレター</p>
+											<p class="txt">カケモチはインドネシアへの進出支援や、インドネシア国内におけるWebマーケティング支援、あるいはインドネシア人向けコミュニティの運営をしていることから、インドネシアでビジネスを行うために重要なトピックに厳選してニュースをお届けすることができます。</p>
+											<p class="new_btn01 right"><a href="<?php echo home_url(); ?>/expatriate/newsletter/">詳細はこちらから</a></p>
+										</div>
+									</div>
+								</div>
+							</section>
+							<!-- index_new_newsletter -->
+
+				<?php get_template_part('news'); ?>
+				<?php get_template_part('news_column'); ?>
+				<?php get_template_part('search'); ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+					
+			  
+				
+			  
+				
+			  
+				
+			  
+				
+			  
+				
+			</article>
+			<!-- article end -->
+		</main>
+		
+<?php get_template_part('parts/contact/contact'); ?>
+<?php get_template_part('about'); ?>
+<?php get_footer(); ?>
+		<div id="page_top">
+			<span></span>
+		</div>
+		<!-- page_top end -->		
+		
+	</div>
+	<!-- wrapper end -->
+<?php get_template_part('before_close_body'); ?>
+<?php wp_footer(); ?>
+</body>
+</html>

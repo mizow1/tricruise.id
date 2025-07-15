@@ -1,0 +1,517 @@
+<?php
+/*
+Template Name: コンテンツマーケティングの実施
+*/
+?>
+<?php get_header(); ?>
+<body>
+<?php get_template_part('after_open_body'); ?>
+	<div id="wrapper">
+<?php get_template_part('gnav'); ?>
+<?php get_template_part('menu'); ?>
+
+		<main id="content_marketing" class="lower">
+			<article>
+				<div id="visual01" class="area">
+					<div class="inner">
+						<h1 class="ttl">インドネシア人向けコンテンツマーケティング</h1>
+						<p class="visual_txt">貴社コーポレートサイトへ多くのユーザーを流入させることで、<br class="pc">今よりも多くのお問い合わせを増やしていく施策のご提案です。</p>
+						<a href="<?php echo home_url(); ?>/contact/" class="visual_btn_dl"><img src="<?php echo get_theme_file_uri(); ?>/img/content_marketing/visual_btn.png" alt="無料でコンテンツマーケのご相談"></a>
+					</div>
+				</div>
+				<!-- visual end -->	
+
+	
+
+<?php
+if(get_field('bread_crumb_html')){
+	echo get_field('bread_crumb_html');
+}else{
+	breadcrumb();
+}
+?>
+
+
+
+				<section id="visiting_Japan" class="area visiting_Japan_cont"<?php if(get_field('main_width')>0){echo ' style="width:'.get_field('main_width').'%;margin:0 auto;"';} ?>>
+						<div class="inner">
+							<h2 class="ttl01">多言語サイトを制作してコンテンツを翻訳するだけで<br class="sp">訪日外国人の集客もできるとお考えではないですか？</h2>
+							<ul>
+								<li>
+									<p class="com orange">自社サイトを多言語化した<br class="pc">のに訪日外国人が増えない</p>
+									<p class="icon"><img src="<?php echo get_theme_file_uri(); ?>/img/content_marketing/icon_pro01.png" alt=""></p>
+								</li>
+								<li>
+									<p class="com orange">SEO対策についてよく分からず<br class="pc">サイト流入が増えない</p>
+									<p class="icon"><img src="<?php echo get_theme_file_uri(); ?>/img/content_marketing/icon_pro02.png" alt=""></p>
+								</li>
+								<li>
+									<p class="com orange">どういったコンテンツを発信<br class="pc">すれば良いか分からない</p>
+									<p class="icon"><img src="<?php echo get_theme_file_uri(); ?>/img/content_marketing/icon_pro03.png" alt=""></p>
+								</li>
+							</ul>
+							
+						</div>
+					</section>
+					<!-- area02 end -->
+
+	
+
+
+				<section id="area01" class="area">
+					<div class="inner">
+                    	<h2 class="ttl01">多言語サイトの制作はあくまでスタート地点<br class="pc">集客につなげるためには複数のステップがあります。</h2>
+						<p class="top_txt">貴社サイトに訪問してくれた訪日外国人ユーザーに適切なコンテンツを届けるだけではなく、何度も訪問してもらい、<br class="pc">商品サービスに魅力を感じてもらうことで販売につながります。<br class="pc">そこからのユーザー体験を地道に改善していくことで、彼らの知人友人にも口コミで貴社のことをPRしてくれるようになります。</p>
+						<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/content_marketing/step_img_pc.png" alt="" class="pc"><img src="<?php echo get_theme_file_uri(); ?>/img/content_marketing/step_img_sp.png" alt="" class="sp"></p>
+						<p class="top_txt mb0">そのためにはコンテンツマーケティングを実施していく必要があります。<br>
+コンテンツマーケティングとは、ユーザーにとって価値のあるコンテンツを
+制作して自社サイトに呼び込み、<br class="pc">お問い合わせにつなげ、最終的には購入/ファン化を目指すマーケティング施策のことです。
+</p>
+					</div>
+				</section>
+				<!-- about01 end -->
+				
+				<div class="mid_contact">
+					<p class="mid_txt">多国籍のデジタルマーケティングチームがWeb集客を支援します</p>
+					<a href="<?php echo home_url(); ?>/contact/" class="btn_mid_contact"><img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/btn_talk.png" alt="詳しく話を聞いてみる"></a>
+				</div>
+				<!-- mid_contact end -->
+				
+				<!--20220429追加-->
+                <div id="indonesia">
+					<section id="ind_media" class="area">
+							<div class="inner">
+								<h2 class="ttl01">コンテンツ制作で意識すべき3つのメディア</h2>
+								<p class="top_txt">一口にコンテンツといっても様々種類のコンテンツがあります。<br class="pc">コーポレートサイトもブログもコンテンツですし、<br class="pc">FacebookやインスタグラムなどSNSでの投稿もコンテンツです。<br class="pc">ニュースレターやダイレクトメールなどもコンテンツになりますし、<br class="pc">リスティング広告やTwitter広告などで用いるランディングページもコンテンツです。<br class="pc">そういった様々なコンテンツをメディアという切り口で整理したのが下記です。</p>
+								<p class="owndmedia_img"><img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/owndmedia.png" alt="オウンドメディアとは"></p>
+								
+								<p class="top_txt">どんなターゲットユーザー向けにどんなコンテンツを作るのかを考えて、<br class="pc">それらをどのメディアを通して届けていくのかリソースを配分し、<br class="pc">実際にインドネシア語でコンテンツを公開していくことで<br class="pc"><span class="orange orang_big">仮想的にインドネシアに進出してニーズを検証することができます。</span></p>
+						</div>
+					</section>
+                    </div>
+					<!--//20220429追加-->
+				
+				<section id="area02" class="area">
+					<div class="inner">
+                    	<h2 class="ttl01 white">コンテンツマーケティングのメリット</h2>
+						<ul>
+							<li>
+								<div class="num_box orange">
+									<p class="merit">Merit</p>
+									<p class="num">01</p>
+								</div>
+								<p class="txt">訪問（飛び込み）営業や電話営業などの<br class="pc">プッシュ型ではアプローチできない<br class="pc">ターゲット層にリーチできる。</p>
+							</li>
+							<li>
+								<div class="num_box orange">
+									<p class="merit">Merit</p>
+									<p class="num">02</p>
+								</div>
+								<p class="txt">情報を発信し続けることによって、<br>見込み顧客へと育成していける。<br><span class="small">（購買の検討期間が長く、長期的な対話・関係が必要となる顧客に有効）</span></p>
+							</li>
+							<li>
+								<div class="num_box orange">
+									<p class="merit">Merit</p>
+									<p class="num">03</p>
+								</div>
+								<p class="txt">広告だけに依存しない集客の仕組みづくりができ、<br class="pc">また広告と違い全ての投資が資産として<br class="pc">自社に残り続ける。</p>
+							</li>
+							<li>
+								<div class="num_box orange">
+									<p class="merit">Merit</p>
+									<p class="num">04</p>
+								</div>
+								<p class="txt">特定分野の専門家（プロ）としての<br class="pc">ブランディングにも役立ち、そのブランディングによってソーシャルメディアでも拡散されやすくなる。</p>
+							</li>
+						</ul>
+						<p class="btm_txt white">デメリットとしては、コンテンツを継続的に発信するリソースが必要になり、<br class="pc">また、<span class="bg_orange">成果が見え始めるのに半年〜1年ほどの時間がかかる</span>点にあります。<br>それでもコンテンツを発信した方がデメリットをメリットが上回ります。</p>
+					</div>
+				</section>
+				<!-- about02 end -->	
+				
+				<section id="area03" class="area">
+					<div class="inner">
+                    	<h2 class="ttl01">コンテンツマーケティングで扱う<br class="sp">コンテンツ例</h2>
+						<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/content_marketing/area03_img.png" alt=""></p>
+						<p class="txt">一口に「コンテンツ」と言っても<br class="sp">実は多様な種類のコンテンツがあります。</p>
+					</div>
+				</section>
+				<!-- about03 end -->
+				
+				<!--20220429-->
+                <div id="indonesia">
+                <section id="ind_cont04" class="area">
+							<div class="inner">
+								<h2 class="ttl01">弊社のコンテンツマーケティング<br class="sp">運用体制の特徴</h2>
+								<ul>
+									<li>
+										<div class="ttl_box">
+											<p class="num"><img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/num01.png" alt="1"></p>
+											<p class="ttl orange">インドネシアにおけるWebマーケティングの経験豊富な日本人従業員</p>
+										</div>
+										<p class="txt">インドネシアにおいて現地採用社員としてWebマーケティングやメディア運用に関わっていたメンバー。インドネシア人男性と国際結婚し、現地でローカルな環境に溶け込みながらメディア運用を行っているメンバー。あるいは元駐在員経験者など多様なメンバーが所属しています。</p>
+									</li>
+									<li>
+										<div class="ttl_box">
+											<p class="num"><img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/num02.png" alt="2"></p>
+											<p class="ttl orange">インドネシア人従業員は全員日本への留学経験者（N1/N2保持者のみ）</p>
+										</div>
+										<p class="txt">メディア運用やWebマーケティングをサポートするインドネシア人従業員は、全員日本語が流暢に話せます。日本語能力試験もN1保持者とN2保持者で構成されており、話すだけではなく、書くことにおいても自由に日本語を扱うことができるメンバーばかりです。</p>
+									</li>
+									<li>
+										<div class="ttl_box">
+											<p class="num"><img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/num03.png" alt="3"></p>
+											<p class="ttl orange">レポーティングは全て日本語での対応が可能</p>
+										</div>
+										<p class="txt">オペレーションはインドネシア語、レポーティングは日本語での対応が可能です。他社のように基本はインドネシア語のみの対応だと、実際に施策がうまくいっているか否かを判断することが難しくなります。そうならないように、弊社ではコミュニケーションは全て日本語で行います。</p>
+									</li>
+								</ul>
+							</div>
+						</section>
+                    </div>
+						<!-- ind_cont04 end -->	
+                 <!--//20220429-->
+				
+				<section id="area04" class="area">
+					<div class="inner">
+                    	<h2 class="ttl01">コンテンツ制作の優先順位</h2>
+						<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/content_marketing/area04_img.png" alt="" class="pc"><img src="<?php echo get_theme_file_uri(); ?>/img/content_marketing/area04_img_sp.png" alt="" class="sp"></p>
+					</div>
+				</section>
+				<!-- about04 end -->
+				
+				<section id="cont_process" class="area">
+					<div class="inner">
+                    	<h2 class="ttl01">コンテンツマーケティングの<br class="sp">プロセス</h2>
+						<p class="top_txt">コンテンツはただ制作して終わりではなく、PDCAを回していく必要があります。<br class="pc">訪日外国人にとって、何が良いコンテンツで、何がそうではなかったのかを数値で把握し、次のコンテンツ制作につなげていきます。</p>
+						<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/content_marketing/process.png" alt=""></p>
+						
+					</div>
+				</section>
+				<!-- about01 end -->
+				
+				<div id="indonesia">
+					
+				<section id="ind_cont05" class="area">
+							<div class="inner">
+								<h2 class="ttl01">コンテンツマーケティングを<br class="sp">成功させるには<br class="pc">ファネルに従ってKPIを設定していくことが重要です。</h2>
+								<p class="top_txt">KPIが設定されていれば、何を改善すれば成果があがるのかが明確になるので、<br class="pc">各種の取組みが最適化されます。弊社ではKPIの設定は貴社と一緒に考えさせていただきます。</p>
+								<ul>
+									<li>
+										<img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/ex01.png" alt="" class="pc">
+										<img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/ex01_sp.png" alt="" class="sp">
+									</li>
+									<li>
+										<img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/ex02.png" alt="" class="pc">
+										<img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/ex02_sp.png" alt="" class="sp">
+									</li>
+								</ul>
+							</div>
+						</section>
+						<!-- ind_cont05 end -->
+				<section id="ind_cont06" class="area">
+							<div class="inner">
+								<h2 class="ttl01">設定したKPIは<br class="sp">日本語によるレポートで<br class="pc">定期的に<br class="sp">ご報告をさせていただきます</h2>
+								<p class="top_txt">コンテンツマーケティングを実行するのはインドネシア人スタッフですが、<br class="pc">その結果をご報告するのは日本語が話せるスタッフ（日本人/インドネシア人）からになります。<br>ご提出するレポートも全て日本語なので、社内関係者の方にも共有しやすいです。</p>
+								<ul>
+									<li>
+										<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/img01.png" alt=""></p>
+										<!--<p class="txt">・テキストテキストテキストテキストテキスト<br>・テキストテキストテキストテキストテキスト</p>-->
+									</li>
+									<li>
+										<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/img02.png" alt=""></p>
+										<!--<p class="txt">・テキストテキストテキストテキストテキスト<br>・テキストテキストテキストテキストテキスト</p>-->
+									</li>
+									<li>
+										<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/img03.png" alt=""></p>
+										<!--<p class="txt">・テキストテキストテキストテキストテキスト<br>・テキストテキストテキストテキストテキスト</p>-->
+									</li>
+									<li>
+										<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/img04.png" alt=""></p>
+										<!--<p class="txt">・テキストテキストテキストテキストテキスト<br>・テキストテキストテキストテキストテキスト</p>-->
+									</li>
+								</ul>
+							</div>
+						</section>
+						<!-- ind_cont06 end -->	
+				</div>
+				
+				<div class="mid_contact">
+					<p class="mid_txt">コンテンツマーケティングの<br class="sp"><span class="orange">ご相談は無料</span>です</p>
+					<a href="<?php echo home_url(); ?>/contact/" class="btn_mid_contact"><img src="<?php echo get_theme_file_uri(); ?>/img/common/btn_contact_free.png" alt="無料　お問い合わせ"></a>
+				</div>
+				<!-- mid_contact end -->
+				
+				
+				<section id="area05" class="area">
+					<div class="inner">
+                    	<h2 class="ttl01"><span>まずは新規制作よりも<br>既存コンテンツの改善から</span></h2>
+						<ul>
+							<li>
+								<p class="ttl">バケツに穴が空いた状態</p>	
+								<div class="cont">
+									<p class="icon"><img src="<?php echo get_theme_file_uri(); ?>/img/content_marketing/icon03.png" alt=""></p>
+									<p class="txt">改善の余地があるコンバージョン率の低いサイトの場合、集客をしても見込み顧客はサイトから離脱してしまいます。</p>
+								</div>
+							</li>
+							<li>
+								<p class="ttl">きれいなバケツの状態</p>	
+								<div class="cont">
+									<p class="icon"><img src="<?php echo get_theme_file_uri(); ?>/img/content_marketing/icon04.png" alt=""></p>
+									<p class="txt">サイトの改善を十分に行いコンバージョン率を高めておくことで、見込み顧客の取り逃がしを防げます。</p>
+								</div>
+							</li>
+						</ul>
+						<p class="btm_txt">現在のコーポレートサイトの改善を行う前に集客に投資をするということは、<br class="pc">穴の空いたバケツに水を溜めているのと同じ状況です。</p>
+						<p class="btm_orange orange">新規のコンテンツを制作していく前に、<br>まずは既存コンテンツを見直しましょう。</p>
+					</div>
+				</section>
+				<!-- about05 end -->
+				
+				<div id="indonesia">
+                <section id="ind_cont07" class="area">
+							<div class="inner">
+								<h2 class="ttl01">プロジェクト体制</h2>
+								<p class="top_txt">プロジェクトの目的により組成する社内の体制が異なります。<br>貴社課題を解決するために社内およびパートナーと連携し、貴社事業の成長を支援していきます。</p>
+								<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/project.png" alt=""></p>
+								<table>
+									<tr>
+										<th>案件窓口</th>
+										<td class="sec">PJマネージャー</td>
+										<td>メディア運用の経験豊富な熟練のプロジェクト運営責任者</td>
+									</tr>
+								</table>
+								<table>
+									<tr>
+										<th rowspan="3">SEO改善</th>
+										<td class="sec">監修者</td>
+										<td>マネージャー</td>
+									</tr>
+									<tr>
+										<td class="sec">SEOコンサルタント</td>
+										<td>メディアへの流入数増加を実現させる責任者</td>
+									</tr>
+									<tr>
+										<td class="sec">アシスタント</td>
+										<td>調査や資料作成などをサポートしていく担当者</td>
+									</tr>
+								</table>
+								<table>
+									<tr>
+										<th rowspan="2">記事制作</th>
+										<td class="sec small">コンテンツ<br>編集者</td>
+										<td>メディアコンテンツの質を向上させる責任者</td>
+									</tr>
+									<tr>
+										<td class="sec">ライター</td>
+										<td>実際に執筆を行うインドネシア人担当者</td>
+									</tr>
+								</table>
+								<table>
+									<tr>
+										<th rowspan="3">CVR改善</th>
+										<td class="sec">監修者</td>
+										<td>マネージャー</td>
+									</tr>
+									<tr>
+										<td class="sec">担当アナリスト</td>
+										<td>メディアへのコンバージョン数増加を実現させる責任者</td>
+									</tr>
+									<tr>
+										<td class="sec">アシスタント</td>
+										<td>Google Analyticsのレポーティングをサポートする担当者</td>
+									</tr>
+								</table>
+							</div>
+						</section>
+                </div>
+						<!-- ind_cont07 end -->	
+				
+                
+				<section id="area06" class="area">
+					<div class="inner">
+                    	<h2 class="ttl01">ご契約後の流れ</h2>
+						<ul>
+							<li>
+								<p class="icon"><img src="<?php echo get_theme_file_uri(); ?>/img/content_marketing/flow01.png" alt="1〜3ヶ月目"></p>
+								<div class="txt_box">
+									<p class="ttl">既存コンテンツの見直し</p>
+									<p class="txt">具体的にはTOPページ、サービス紹介ページ、お問い合わせフォーム、CTAの見直しなどを実施。それに伴うページ間の導線の再設計。</p>
+									<p class="caution">新規コンテンツ制作（ブログなど）から取り組む企業様が多いですが、穴の空いたバケツの状態では投資が無駄になる可能性があります。よって、新規コンテンツ作成は後の作業となります。</p>
+								</div>
+							</li>
+							<li>
+								<p class="icon"><img src="<?php echo get_theme_file_uri(); ?>/img/content_marketing/flow02.png" alt="4ヶ月目"></p>
+								<div class="txt_box">
+									<p class="ttl">コンテンツマーケティングの<br class="sp">全体戦略の立案</p>
+									<p class="txt">ご予算全体の中で、どれだけ新規記事作成に予算を充てるのか、メルマガやホワイトペーパー作成などはどうするか等、先を見通したマーケティングの全体戦略を決めていきます。</p>
+								</div>
+							</li>
+						</ul>
+						<p class="btm">5ヶ月目以降は、全体戦略に沿って<br>オペレーション業務を二人三脚でサポートしていきます。</p>
+					</div>
+				</section>
+				<!-- about06 end -->
+				
+				
+				<section id="cont_flow" class="area">
+					<div class="inner">
+                    	<h2 class="ttl01">オペレーション業務のイメージ</h2>
+						
+						<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/content_marketing/flow_pc.png" alt="" class="pc"><img src="<?php echo get_theme_file_uri(); ?>/img/content_marketing/flow_sp.png" alt="" class="sp"></p>
+						
+					</div>
+				</section>
+				<!-- about01 end -->
+				
+                
+				<section id="area07" class="area">
+					<div class="inner">
+                    	<h2 class="ttl01 white">プロジェクトにおける役割分担</h2>
+						<table>
+							<tr>
+								<th>業務内容</th>
+								<th>貴社</th>
+								<th>弊社</th>
+							</tr>
+							<tr>
+								<td>コンテンツマーケティングの全体戦略</td>
+								<td class="gray">×</td>
+								<td class="orange">〇</td>
+							</tr>
+							<tr>
+								<td>具体的なコンテンツの企画</td>
+								<td class="gray">×</td>
+								<td class="orange">〇</td>
+							</tr>
+							<tr>
+								<td>コンテンツの制作（＊1）</td>
+								<td class="gray">×</td>
+								<td class="orange">〇</td>
+							</tr>
+							<tr>
+								<td>コンテンツの公開（＊2）</td>
+								<td class="orange">〇</td>
+								<td class="gray">×</td>
+							</tr>
+							<tr>
+								<td>コンテンツの分析</td>
+								<td class="gray">×</td>
+								<td class="orange">〇</td>
+							</tr>
+							<tr>
+								<td>コンテンツの改善（＊3）</td>
+								<td class="gray">×</td>
+								<td class="orange">〇</td>
+							</tr>
+							<tr>
+								<td>レポーティング（Google Analytics）</td>
+								<td class="gray">×</td>
+								<td class="orange">〇</td>
+							</tr>
+							<tr>
+								<td>定例ミーティング（月に1回）</td>
+								<td class="orange">〇</td>
+								<td class="orange">〇</td>
+							</tr>
+						</table>
+						<p class="caution white">＊1　記事作成などのコンテンツ制作は別途費用になります（都度お見積）。<br>
+						＊2　納品コンテンツをサイトに反映させる作業は貴社にてお願いします。<br>
+						＊3　改善案をもとにしたサイトへの反映は貴社作業となります。</p>
+					</div>
+				</section>
+				<!-- about07 end -->	
+                
+				<div id="indonesia">
+				<section id="ind_cont08" class="area">
+							<div class="inner">
+								<h2 class="ttl01">ご契約までの流れ</h2>
+								<ul>
+									<li>
+										<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/flow01.png" alt="ご提案"></p>
+										<p class="ttl">貴社からヒアリングをした上で、取組内容をご案内致します。</p>
+									</li>
+									<li>
+										<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/flow02.png" alt="取組内容の擦り合わせ"></p>
+										<p class="ttl">貴社の現状や課題感に対して取組み内容を何度も擦り合わせます。</p>
+									</li>
+									<li>
+										<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/flow03.png" alt="金額、時期の決定"></p>
+										<p class="ttl">貴社の課題に対して最適なプランをご提案いたします。</p>
+									</li>
+									<li>
+										<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/indonesia/flow04.png" alt="お見積り契約締結"></p>
+										<p class="ttl">クラウドサインにて契約をさせて頂きます。</p>
+									</li>
+								</ul>
+							</div>
+						</section>
+						<!-- ind_cont08 end -->	
+					</div>	
+                
+				<section id="area09" class="area">
+					<div class="inner">
+						<h2 class="ttl01">よくあるご質問</h2>
+                        <dl>
+                            <dt>
+                                <span></span><p>何から相談して良いか分からず、とりあえずいろいろ話を聞いてもらいたい</p>
+                            </dt>
+                            <dd>
+                                <span></span><p>はい、もちろん大丈夫です。訪日インバウンドにしろ海外進出にしろ、やらなくてはいけないことは多々あります。<br>すぐのご依頼というお話ではなくても、とりあえずご相談いただければと思います。</p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <span></span><p>それぞれどれくらいの費用がかかるのか知りたい</p>
+                            </dt>
+                            <dd>
+                                <span></span><p>どのサービスも、お客様がどれくらいの対策を望まれるかで料金が多少変わってきます。まずは一度ご連絡をいただければと思います。</p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <span></span><p>どのようなフローで進んでいきますか</p>
+                            </dt>
+                            <dd>
+                                <span></span><p>まずは御社の現状についてヒアリングをさせていただくところから始まります。「SEO対策をしてほしい」とのご希望があっても、優先して取り組むべき課題が別のところにある可能性もあります。そういった点について深掘りさせていただきます。</p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <span></span><p>契約期間はどれくらいの長さになりますか（縛りはありますか）</p>
+                            </dt>
+                            <dd>
+                                <span></span><p>初月解約可能です。弊社のサービスが合わなかったり、ご満足をいただけなかった場合は初月で契約を解除していただくこともできます。サービスに自信があるからこそのこの形でご提供しています。</p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <span></span><p>訪問してもらえますか</p>
+                            </dt>
+                            <dd>
+                                <span></span><p>基本的にはzoomやskypeなどのオンラインツールを使ってのお打ち合わせとさせていただいています。</p>
+                            </dd>
+                        </dl>
+					</div>
+				</section>
+				<!-- area09 end -->
+
+
+			</article>
+			<!-- article end -->
+		</main>
+		<!-- main end -->
+<?php get_template_part('contact'); ?>
+<?php get_template_part('about'); ?>
+<?php get_footer(); ?>
+		<div id="page_top">
+			<span></span>
+		</div>
+		<!-- page_top end -->		
+		
+	</div>
+	<!-- wrapper end -->
+<?php get_template_part('before_close_body'); ?>
+<?php wp_footer(); ?>
+</body>
+</html>
