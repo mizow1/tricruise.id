@@ -359,7 +359,7 @@ if(get_the_post_thumbnail_url($post->ID, "full")){
 
 				
 
-				<!--<?php get_template_part('news'); ?>-->
+				<?php //get_template_part('news'); ?>
 				<?php get_template_part('news_column'); ?>
 				<!-- お電話でのお問い合わせ -->
 				<div id="contact_new_area">
