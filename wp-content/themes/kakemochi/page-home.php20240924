@@ -23,7 +23,7 @@ if(get_the_post_thumbnail_url($post->ID, "full")){
 						<div class="txt_box">
 							<p class="visual_ttl01 orange">福岡本社</p>
 							<h2 class="visual_ttl02">インドネシア市場に特化した<br>進出支援と集客支援</h2>
-							<p class="visual_txt">カケモチは、<br>
+							<p class="visual_txt">TRICRUISEは、<br>
 							IT・デジタル技術の活用によってビジネスモデルを変革し<br>
 							インドネシア市場における売上・利益の拡大を支援する<br>
 							多国籍企業です。</p>
@@ -368,7 +368,7 @@ if(get_the_post_thumbnail_url($post->ID, "full")){
 										<p class="img"><img alt="" src="<?php echo get_theme_file_uri(); ?>/img/index_new/news_letter.png"></p>
 										<div class="txt_box">
 											<p class="ttl">インドネシアについての<br class="sp">お役立ちニュースレター</p>
-											<p class="txt">カケモチはインドネシアへの進出支援や、インドネシア国内におけるWebマーケティング支援、あるいはインドネシア人向けコミュニティの運営をしていることから、インドネシアでビジネスを行うために重要なトピックに厳選してニュースをお届けすることができます。</p>
+											<p class="txt">TRICRUISEはインドネシアへの進出支援や、インドネシア国内におけるWebマーケティング支援、あるいはインドネシア人向けコミュニティの運営をしていることから、インドネシアでビジネスを行うために重要なトピックに厳選してニュースをお届けすることができます。</p>
 											<p class="new_btn01 right"><a href="<?php echo home_url(); ?>/expatriate/newsletter/">詳細はこちらから</a></p>
 										</div>
 									</div>

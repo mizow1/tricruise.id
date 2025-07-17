@@ -159,7 +159,7 @@ if(get_field('bread_crumb_html')){
 								<a href="<?php echo home_url(); ?>/preparation/client01.html">
 									<div class="img_box">
 										<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/common/img_case.png" alt=""></p>
-										<p class="logo"><img src="<?php echo get_theme_file_uri(); ?>/img/common/case_logo.png" alt="カケモチ"></p>
+										<p class="logo"><img src="<?php echo get_theme_file_uri(); ?>/img/common/case_logo.png" alt="TRICRUISE"></p>
 									</div>
 									<p class="ttl">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
 									<p class="name">〇〇〇〇株式会社</p>
@@ -174,7 +174,7 @@ if(get_field('bread_crumb_html')){
 								<a href="<?php echo home_url(); ?>/preparation/client01.html">
 									<div class="img_box">
 										<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/common/img_case.png" alt=""></p>
-										<p class="logo"><img src="<?php echo get_theme_file_uri(); ?>/img/common/case_logo.png" alt="カケモチ"></p>
+										<p class="logo"><img src="<?php echo get_theme_file_uri(); ?>/img/common/case_logo.png" alt="TRICRUISE"></p>
 									</div>
 									<p class="ttl">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
 									<p class="name">〇〇〇〇株式会社</p>
@@ -189,7 +189,7 @@ if(get_field('bread_crumb_html')){
 								<a href="<?php echo home_url(); ?>/preparation/client01.html">
 									<div class="img_box">
 										<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/common/img_case.png" alt=""></p>
-										<p class="logo"><img src="<?php echo get_theme_file_uri(); ?>/img/common/case_logo.png" alt="カケモチ"></p>
+										<p class="logo"><img src="<?php echo get_theme_file_uri(); ?>/img/common/case_logo.png" alt="TRICRUISE"></p>
 									</div>
 									<p class="ttl">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
 									<p class="name">〇〇〇〇株式会社</p>
@@ -212,15 +212,15 @@ if(get_field('bread_crumb_html')){
 						<ul>
 							<li>
 								<p class="icon"><img src="<?php echo get_theme_file_uri(); ?>/img/service/voice_icon.png" alt=""></p>
-								<p class="txt">訪日インバウンド支援を他の会社に依頼した時は、多言語サイトを制作して終わりという感じでした。ただ、カケモチさんの場合は全体的な戦略のところから一緒に考えてもらい、その中で多言語サイトがどういう位置づけになるのかを改めて共有してもらえたのは良かったです。部分最適ではなく、全体最適の重要性を感じました（カケモチプラン）。</p>
+								<p class="txt">訪日インバウンド支援を他の会社に依頼した時は、多言語サイトを制作して終わりという感じでした。ただ、TRICRUISEさんの場合は全体的な戦略のところから一緒に考えてもらい、その中で多言語サイトがどういう位置づけになるのかを改めて共有してもらえたのは良かったです。部分最適ではなく、全体最適の重要性を感じました（TRICRUISEプラン）。</p>
 							</li>
 							<li>
 								<p class="icon"><img src="<?php echo get_theme_file_uri(); ?>/img/service/voice_icon.png" alt=""></p>
-								<p class="txt">以前から注目していたインドネシアという巨大なマーケットに対して、自社サービスを何とか認知させたいと思っていました。ただ、Webマーケティングの分野に詳しく、かつ、インドネシアのマーケットにも詳しい企業に巡り合うことができないなか、そこを得意とするカケモチさんに出会えて支援いただけたことは助かりました（カケモチプラン）。</p>
+								<p class="txt">以前から注目していたインドネシアという巨大なマーケットに対して、自社サービスを何とか認知させたいと思っていました。ただ、Webマーケティングの分野に詳しく、かつ、インドネシアのマーケットにも詳しい企業に巡り合うことができないなか、そこを得意とするTRICRUISEさんに出会えて支援いただけたことは助かりました（TRICRUISEプラン）。</p>
 							</li>
 							<li>
 								<p class="icon"><img src="<?php echo get_theme_file_uri(); ?>/img/service/voice_icon.png" alt=""></p>
-								<p class="txt">SEOについては右も左も分からない状態でしたが、対策の重要性については以前から認識していました。専門家として弊社のスタッフと二人三脚で伴走してもらえる会社をずっと探しているなかでカケモチさんを知りました。毎月丁寧なレポーティングやご提案をしてもらえるので非常に心強いパートナーだと感じています（コンサルティングプラン）。</p>
+								<p class="txt">SEOについては右も左も分からない状態でしたが、対策の重要性については以前から認識していました。専門家として弊社のスタッフと二人三脚で伴走してもらえる会社をずっと探しているなかでTRICRUISEさんを知りました。毎月丁寧なレポーティングやご提案をしてもらえるので非常に心強いパートナーだと感じています（コンサルティングプラン）。</p>
 							</li>
 						</ul>
 					</div>

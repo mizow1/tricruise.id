@@ -11,7 +11,7 @@
 			<!--<p class="footer_new_btn"><a href="<?php echo home_url(); ?>/contact/"><img src="<?php echo get_theme_file_uri(); ?>/img/common/footer_btn.png" alt="お問い合わせはこちら"></a></p>-->
 
 			<div class="footer_new_bottom">
-				<p class="logo"><a href="<?php echo home_url(); ?>"><img alt="カケモチ" src="<?php echo get_theme_file_uri(); ?>/img/common/header_logo.png"></a></p>
+				<p class="logo"><a href="<?php echo home_url(); ?>"><img alt="TRICRUISE" src="<?php echo get_theme_file_uri(); ?>/img/common/header_logo.png"></a></p>
 
 				<p class="ttl">PT. TRICRUISE MARKETING INDONESIA<br>
 				GROWINK WISMA KEIAI JALAN JENDERAL SUDIRMAN B KARET TENGSIN, TANAH ABANG KOTA ADM.<br>JAKARTA PUSAT DKI JAKARTA

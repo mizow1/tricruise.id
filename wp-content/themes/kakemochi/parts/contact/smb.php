@@ -23,7 +23,7 @@
 									</p>
 									<p class="time">（9:00〜19:00）</p>
 								</div>	
-								<a href="<?php echo home_url(); ?>/company/" class="intro orange">カケモチの自己紹介</a>
+								<a href="<?php echo home_url(); ?>/company/" class="intro orange">TRICRUISEの自己紹介</a>
 							</div>
 						</div>
 					</section>

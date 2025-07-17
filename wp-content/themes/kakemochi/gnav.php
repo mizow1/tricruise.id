@@ -3,7 +3,7 @@
         <nav id="new_nav_pc">
         <?php get_template_part('menu'); ?>
             <div class="new_nav_in">
-            <p class="logo"><a href="<?php echo home_url(); ?>/"><img src="<?php echo get_theme_file_uri(); ?>/img/common/header_logo.png" alt="カケモチ"></a></p>
+            <p class="logo"><a href="<?php echo home_url(); ?>/"><img src="<?php echo get_theme_file_uri(); ?>/img/common/header_logo.png" alt="TRICRUISE"></a></p>
              <ul class="new_nav_box">
                     <li><a href="<?php echo home_url(); ?>/" class="drp_icon gnav_top_f">Home</a></li>
 					<li><a href="<?php echo home_url(); ?>/column/price-list-for-indonesia-market-entry-services/" class="drp_icon gnav_top_f">FEE</a></li>

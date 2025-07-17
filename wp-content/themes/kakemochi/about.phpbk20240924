@@ -1,6 +1,6 @@
 		<div id="about" class="area">
 			<div class="inner">
-				<h3 class="ttl">カケモチのサービスについて<br class="sp">詳しく紹介しているページ</h3>
+				<h3 class="ttl">TRICRUISEのサービスについて<br class="sp">詳しく紹介しているページ</h3>
 				<ul>
 					<li><a href="<?php echo home_url(); ?>/overseas-expansion/indonesian-market-research/">市場調査を15万円から実施できます</a></li>
 					<li><a href="<?php echo home_url(); ?>/overseas-expansion/cross-border-e-commerce/">月額5万円でセカンドオピニオンを行います</a></li>

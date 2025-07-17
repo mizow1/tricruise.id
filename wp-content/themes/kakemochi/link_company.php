@@ -18,7 +18,7 @@
 				</p>
 				<div class="company_links_txt_inner">
 				<p class="company_links_ttl"><span class="orange">●</span>社名の由来</p>
-				<p class="txt">カケモチという社名の由来についてご説明しています</p>
+				<p class="txt">TRICRUISEという社名の由来についてご説明しています</p>
 				</div>
 				</a>
 			</li>

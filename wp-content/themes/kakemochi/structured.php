@@ -9,7 +9,7 @@ $imageobject = wp_get_attachment_image_src($thumbnail_id, 'full');
 			"@context": "https://schema.org/",
 			"@type": "WebSite",
 			"name": "<?php echo bloginfo('name') ?>",
-			"alternateName": "カケモチ",
+			"alternateName": "TRICRUISE",
 			"url": "<?php echo home_url() ?>"
 		}
 	</script>
@@ -44,7 +44,7 @@ $imageobject = wp_get_attachment_image_src($thumbnail_id, 'full');
 			},
 		<?php endif; ?> "publisher": {
 			"@type": "Organization",
-			"name": "カケモチ株式会社",
+			"name": "PT. TRICRUISE MARKETING INDONESIA",
 			"logo": {
 				"@type": "ImageObject",
 				"url": "<?php echo get_theme_file_uri() . '/img/common/header_logo.png'; ?>"

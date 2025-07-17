@@ -24,7 +24,7 @@ if(get_the_post_thumbnail_url($post->ID, "full")){
 						<div class="txt_box">
 							<p class="visual_ttl01 orange">福岡本社</p>
 							<h2 class="visual_ttl02">インドネシアに特化<br>進出支援とマーケティング</h2>
-							<p class="visual_txt">カケモチは、<br>
+							<p class="visual_txt">TRICRUISEは、<br>
 							日本語が話せるインドネシア人従業員と共に<br>
 							日系企業様のインドネシア進出を支援している<br>
 							多国籍企業です。</p>
@@ -416,7 +416,7 @@ if(get_the_post_thumbnail_url($post->ID, "full")){
 									</p>
 									<p class="time">（9:00〜19:00）</p>
 								</div>	
-								<a href="<?php echo home_url(); ?>/company/" class="intro orange">カケモチの自己紹介</a>
+								<a href="<?php echo home_url(); ?>/company/" class="intro orange">TRICRUISEの自己紹介</a>
 							</div>
 						</div>
 					</section>
@@ -440,7 +440,7 @@ if(get_the_post_thumbnail_url($post->ID, "full")){
 			  
 				<section class="index_new_feature area bg01">
 					<div class="inner1000">
-						<h3 class="new_ttl01">カケモチの<span class="orange">インドネシア進出<br class="sp">コンサルティング</span>の特長</h3>
+						<h3 class="new_ttl01">TRICRUISEの<span class="orange">インドネシア進出<br class="sp">コンサルティング</span>の特長</h3>
 						<ul class="new_feature_list">
 							<li>
 								<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/index_new/feature01.png" alt=""></p>
@@ -474,7 +474,7 @@ if(get_the_post_thumbnail_url($post->ID, "full")){
 							<p class="img"><img src="<?php echo get_theme_file_uri(); ?>/img/index_new/news_letter.png" alt=""></p>
 							<div class="txt_box">
 								<p class="ttl">インドネシアについての<br class="sp">お役立ちニュースレター</p>
-								<p class="txt">カケモチはインドネシアへの進出支援や、インドネシア国内におけるWebマーケティング支援、あるいはインドネシア人向けコミュニティの運営をしていることから、インドネシアでビジネスを行うために重要なトピックに厳選してニュースをお届けすることができます。</p>
+								<p class="txt">TRICRUISEはインドネシアへの進出支援や、インドネシア国内におけるWebマーケティング支援、あるいはインドネシア人向けコミュニティの運営をしていることから、インドネシアでビジネスを行うために重要なトピックに厳選してニュースをお届けすることができます。</p>
 								<p class="new_btn01 right"><a href="<?php echo home_url(); ?>/expatriate/newsletter/">詳細はこちらから</a></p>
 							</div>
 						</div>

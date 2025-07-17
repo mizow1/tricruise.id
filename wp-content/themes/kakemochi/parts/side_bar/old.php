@@ -1,5 +1,5 @@
 <aside class="side_left pc">
-	<!--<p class="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_theme_file_uri(); ?>/img/common/header_logo.png" alt="カケモチ"></a></p>-->
+	<!--<p class="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_theme_file_uri(); ?>/img/common/header_logo.png" alt="TRICRUISE"></a></p>-->
 	<div class="b_banners_txt">
 		<div class="banners_txt">
 
@@ -61,6 +61,6 @@
 					</ul>
 				</div>-->
 
-	<!--<p class="logo_s"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_theme_file_uri(); ?>/img/common/header_logo.png" alt="カケモチ"></a></p>-->
+	<!--<p class="logo_s"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_theme_file_uri(); ?>/img/common/header_logo.png" alt="TRICRUISE"></a></p>-->
 </aside>
 <!-- left end -->

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: カケモチ会員募集中
+Template Name: TRICRUISE会員募集中
 */
 ?>
 <?php get_header(); ?>
@@ -31,7 +31,7 @@ if(get_field('bread_crumb_html')){
 				
 				<section id="member01" class="area"<?php if(get_field('main_width')>0){echo ' style="width:'.get_field('main_width').'%;margin:0 auto;"';} ?>>
 					<div class="inner">
-                    	<h2 class="ttl01">カケモチ会員募集中</h2>
+                    	<h2 class="ttl01">TRICRUISE会員募集中</h2>
 						<p class="top_txt">今すぐに訪日インバウンド支援や各種Webマーケティングのコンサルティングサービスが必要ではないけれど、定期的に有益な情報を受けたいお客様向けの会員制のサービスです。<br>情報収集だけではなく、Web集客の壁打ち相手を求めているお客様のニーズにもお応えします。</p>
 						<div class="member_banner">
 							<p class="ttl"><img src="<?php echo get_theme_file_uri(); ?>/img/member/service6_txt.png" alt="6つの有料会員向けサービス"></p>
