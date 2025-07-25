@@ -1,0 +1,32 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+error_log
+
+# Temporary files
+*.tmp
+*~
+
+# Backup files
+*.bak
+*.backup
+
+# Screenshot files (if needed, remove this line)
+screenshot.png
+screenshot.png.webp
