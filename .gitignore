@@ -1,41 +1,39 @@
 # WordPress
 wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
 wp-content/debug.log
 
-# Ignore core WordPress files
+# WordPress core files (if needed for full WP project)
 wp-admin/
 wp-includes/
-
-# Ignore WordPress core
 /*.txt
 /*.md
 !readme.html
 !license.txt
 !wp-config-sample.php
 
-# Ignore wp-content (except themes and plugins)
-wp-content/*
-!wp-content/plugins/
-!wp-content/themes/
-!wp-content/mu-plugins/
-
-# Ignore node modules
+# Node modules
 node_modules/
 
-# Ignore log files and databases
+# Logs and databases
 *.log
 *.sql
 *.sqlite
+error_log
 
-# Ignore environment files
+# Environment files
 .env
 *.env
 
-# Ignore IDE specific files
+# IDE specific files
 .idea/
 .vscode/
 *.sublime-workspace
 *.sublime-project
+*.swp
+*.swo
 
 # OS generated files
 .DS_Store
@@ -45,6 +43,16 @@ node_modules/
 .Trashes
 ehthumbs.db
 Thumbs.db
+desktop.ini
 
-# Ignore uploads
-wp-content/uploads/
+# Temporary files
+*.tmp
+*~
+
+# Backup files
+*.bak
+*.backup
+
+# Screenshot files (if needed, remove this line)
+screenshot.png
+screenshot.png.webp

@@ -1,0 +1,132 @@
+<div id="nav_sp" class="sp">
+    <div id="btn_nav"><span></span><span></span><span></span></div>
+    <nav>
+        <p class="ttl">MENU</p>
+        <ul class="wrap">
+            <li>
+                <a class="aco_btn">市場調査</a>
+                <ul class="aco_box">
+                <li><a class="new_nav_arrow size_s">伴走支援</a>
+					<div class="new_nav_3rd">
+						<a href="<?php echo home_url(); ?>/overseas-expansion/bounce-ideas-advancement-indonesia/" class="new_nav_arrow size_s">顧問サービス</a>
+						<a href="<?php echo home_url(); ?>/overseas-expansion/bounce-ideas-off-client/" class="new_nav_arrow size_s">セカンドオピニオン</a>
+					</div>
+					
+					</li>
+                    <li><a class="new_nav_arrow size_s">ユーザー調査</a>
+						<div class="new_nav_3rd">
+						<a href="<?php echo home_url(); ?>/overseas-expansion/indonesian-market-research/" class="new_nav_arrow size_s">アンケート調査</a>
+						</div>
+					</li>
+                    <li><a class="new_nav_arrow size_s">現地調査</a>
+						<div class="new_nav_3rd">
+                        <a href="<?php echo home_url(); ?>/exhibition-indonesia/" class="new_nav_arrow size_s">展示会出展</a>
+						<a href="<?php echo home_url(); ?>/overseas-expansion/inspection-tour-to-indonesia/" class="new_nav_arrow size_s">現地視察</a>
+					</li>
+                </ul>
+            </li>
+            <li>
+            <a class="aco_btn">販売代理</a>
+                <ul class="aco_box">
+					<li><a class="new_nav_arrow size_s">美容業界向け</a>
+						<div class="new_nav_3rd">
+							<a href="<?php echo home_url(); ?>/overseas-expansion/entry-into-indonesia-package-plan/" class="new_nav_arrow size_s">サービス概要</a>
+							<a href="<?php echo home_url(); ?>/column/local-cosmetics-company-in-indonesia/" class="new_nav_arrow size_s">ローカル化粧品メーカー10選</a>
+							<a href="<?php echo home_url(); ?>/column/local-cosmetics-in-indonesia/" class="new_nav_arrow size_s">人気のローカルコスメ25選</a>
+						</div> 
+					
+					</li>
+					<li><a href="#" class="new_nav_arrow size_s">小売企業向け</a>
+						<div class="new_nav_3rd">
+							<a href="<?php echo home_url(); ?>/overseas-expansion/entry-into-indonesia-package-plan/" class="new_nav_arrow size_s">サービス概要</a>
+							<a href="<?php echo home_url(); ?>/column/restrictions-in-foreign-retail-industry-indonesia/" class="new_nav_arrow size_s">小売の外資規制</a>
+							<a href="<?php echo home_url(); ?>/column/foreign-investment-restrictions-in-retail-franchise-indonesia/" class="new_nav_arrow size_s">日系企業の進出事例</a>
+						</div>
+					</li>
+					<li><a href="#" class="new_nav_arrow size_s">その他業界向け</a>
+						<div class="new_nav_3rd">
+							<a href="<?php echo home_url(); ?>/overseas-expansion/entry-into-indonesia-package-plan/" class="new_nav_arrow size_s">サービス概要</a>
+							<a href="<?php echo home_url(); ?>/column/halal-certification-essential-for-expansion-into-indonesia/" class="new_nav_arrow size_s">ハラル認証とは</a>
+							<a href="<?php echo home_url(); ?>/column/popular-japanese-food-in-indonesia/" class="new_nav_arrow size_s">人気の日本食</a>
+						</div>
+					</li>
+                </ul>
+            </li>
+
+			<li>
+                <a class="aco_btn">会社設立</a>
+                <ul class="aco_box">
+					<li><a class="new_nav_arrow size_s">内資設立</a>
+						<div class="new_nav_3rd">
+							<a href="<?php echo home_url(); ?>/overseas-expansion/founding-of-a-company/" class="new_nav_arrow size_s">サービス概要</a>
+					</div>				
+					</li>
+					<li><a class="new_nav_arrow size_s">外資設立</a>
+						<div class="new_nav_3rd">
+							<a href="<?php echo home_url(); ?>/overseas-expansion/founding-of-a-company/" class="new_nav_arrow size_s">サービス概要</a>
+						</div> 					
+					</li>
+					<li><a class="new_nav_arrow size_s">駐在員事務所設立</a>
+						<div class="new_nav_3rd">
+							<a href="<?php echo home_url(); ?>/column/how-to-establish-a-representative-office-in-indonesia/" class="new_nav_arrow size_s">サービス概要</a>
+						</div>  					
+					</li>
+                </ul>
+            </li>
+            
+            <li>
+                <a class="aco_btn">ビザ申請</a>
+                <ul class="aco_box">
+					<li><a class="new_nav_arrow size_s">インドネシア進出前</a>
+						<div class="new_nav_3rd">
+                        	<a href="<?php echo home_url(); ?>/overseas-expansion/work-visa/" class="new_nav_arrow size_s">サービス概要</a>
+							<a href="<?php echo home_url(); ?>/column/visa-on-arrival-in-indonesia/" class="new_nav_arrow size_s">到着ビザ（VOA）</a>
+							<a href="<?php echo home_url(); ?>/column/visa-on-arrival-in-indonesia/" class="new_nav_arrow size_s">工場訪問ビザ</a>
+						</div>				
+					</li>
+					<li><a class="new_nav_arrow size_s">インドネシア進出後</a>
+						<div class="new_nav_3rd">
+                        	<a href="<?php echo home_url(); ?>/overseas-expansion/work-visa/" class="new_nav_arrow size_s">サービス概要</a>
+							<a href="<?php echo home_url(); ?>/column/types-and-procedure-of-work-visas-in-indonesia/" class="new_nav_arrow size_s">就労ビザ</a>
+							<a href="<?php echo home_url(); ?>/column/golden-visa-in-indonesia/" class="new_nav_arrow size_s">投資家ビザ</a>
+                        </div> 					
+					</li>
+                </ul>
+            </li>
+            <li><a href="<?php echo home_url(); ?>/digital-marketing/support-web-marketing/">Web集客</a></li>					
+            <li>
+                <a class="aco_btn">企業情報</a>
+                <ul class="aco_box">
+                    <li><a class="new_nav_arrow size_s">基本情報</a>
+						<div class="new_nav_3rd">
+							<a href="<?php echo home_url(); ?>/company/" class="new_nav_arrow size_s">会社概要</a>
+							<a href="<?php echo home_url(); ?>/company/message/" class="new_nav_arrow size_s">代表メッセージ</a>
+							<a href="<?php echo home_url(); ?>/company/business-investment/" class="new_nav_arrow size_s">投資家向け</a>
+						</div>
+                    </li>
+                    <li><a class="new_nav_arrow size_s">お役立ち情報</a>
+						<div class="new_nav_3rd">
+							<a href="<?php echo home_url(); ?>/column/" class="new_nav_arrow size_s">コラム記事</a>
+							<a href="<?php echo home_url(); ?>/member/" class="new_nav_arrow size_s">会員限定記事</a>
+                            <a href="<?php echo home_url(); ?>/interview/" class="new_nav_arrow size_s">インタビュー記事</a>
+						</div>
+                    </li>								
+                    <li><a class="new_nav_arrow size_s">採用情報</a>
+                        <div class="new_nav_3rd">
+                            <a href="<?php echo home_url(); ?>/careers/#careers_i" class="new_nav_arrow size_s">インドネシア人の採用</a>
+                            <a href="<?php echo home_url(); ?>/careers/#careers_j" class="new_nav_arrow size_s">日本人の採用</a>
+                        </div>
+                        </li>
+                </ul>
+            </li>
+			
+            				
+        </ul>
+
+        <div class="nav_contact">
+			<p class="document"><a href="https://lin.ee/BM45FJY" target="_blank"><img alt="LINEで相談" src="<?php echo get_theme_file_uri(); ?>/img/common/header_line.png"></a></p>
+            <p class="contact"><a href="<?php echo home_url(); ?>/contact/"><img src="<?php echo get_theme_file_uri(); ?>/img/common/header_btn02.png" alt="お問い合わせ"></a></p>
+        </div>
+
+    </nav>
+</div><!-- nav sp end -->
