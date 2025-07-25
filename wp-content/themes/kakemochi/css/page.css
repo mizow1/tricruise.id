@@ -1,0 +1,112 @@
+@charset "utf-8";
+body{
+}
+h2{
+
+}
+.other_article {
+	border: 1px solid #f0882e;
+	padding:  30px 20px 20px;
+	position: relative;
+	margin: 50px auto 50px;
+	max-width: 600px;
+}
+.other_article .ttl_box {
+	background: #f0882e;
+	color: #fff;
+	font-weight: 700;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 5px 10px;
+	width: 160px;
+	position: absolute;
+	left:20px;
+	top: -15px;
+}
+.other_article .ttl_box .icon {
+	margin: 0 10px 0 0;
+}
+.other_article .ttl_box .icon img {
+	max-width: 13px;
+}
+.other_article .box a{
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.other_article .box .img {
+	width: 30%;
+	padding: 0 20px 0 0;
+}
+.other_article .box .txt_box {
+	width: 70%;
+}
+.other_article .box .txt_box .ttl {
+	margin: 0 0 10px;
+	font-weight: 700;
+}
+.other_article .box .txt_box .txt {
+	font-size: 90%;
+	line-height: 1.4;
+	margin: 0;
+	padding: 0;
+}
+.q_txt01 {
+	font-weight: 700;
+	font-size: 110%;
+	margin: 0 0 20px;
+	position: relative;
+	padding: 0 0 0 55px;
+	line-height: 1.6;
+}
+.q_txt01::before {
+	display: block;
+	content: "";
+	position: absolute;
+	background: #000;
+	width: 40px;
+	height: 3px;
+	left: 8px;
+	top: 13px;
+}
+.a_txt {
+	background: #fff;
+	border-radius: 20px;
+	padding: 20px;
+	filter: drop-shadow(0 0 4px rgba(0,0,0,0.1));
+	line-height: 1.6;
+	margin: 0 0 30px;
+}
+.a_txt .name {	color: #f0882e;
+	font-weight: 700;
+	margin: 0 20px 0 0;
+}
+
+.link_copy {
+  cursor: pointer;
+  position: relative;
+}
+ 
+/* Tooltip */
+.tooltip::after {
+	content: 'URLをコピーしました。';
+	background: #555;
+	display: inline-block;
+	color: #fff;
+	border-radius: .4rem;
+	position: absolute;
+	left: 50%;
+	bottom: -.8rem;
+	transform: translate(-50%, 0);
+	font-size: .75rem;
+	padding: 4px 10px 6px 10px;
+	animation: fade-tooltip .5s 1s 1 forwards;
+}
+ 
+/* Animation */
+@keyframes fade-tooltip {
+	to { opacity: 0; }
+}
