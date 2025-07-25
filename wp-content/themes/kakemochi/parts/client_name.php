@@ -2,7 +2,7 @@
 	<div class="inner1000">
 		<!--<h3 class="new_ttl01">お取引先例</h3>-->
 		<div class="client_slider_copy">
-			おかげ様で毎月ご契約増！
+			Increasing contracts monthly
 		</div>
 		<div class="client_slider">
 			<!-- <div>

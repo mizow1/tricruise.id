@@ -1,11 +1,17 @@
-<div class="column_new_cv">
-	<div class="column_new_cv_inner">
-	<div class="column_new_cv_ttl">3ヶ月合計47万円でインドネシアに簡易的に進出しませんか</div>
-	<div class="column_new_cv_txt">
-	2025年は日本で働くインドネシア人が大きく注目される年になるので、インドネシアでの人材ビジネスに参入するなら今だと弊社は考えています。まずは少額予算で特定技能や技能実習等の送り出しビジネスの構築をカジュアルにスタートしてみませんか。
-	</div>
-	<div class="column_new_cv_btn">
-		<a href="https://tricruise.id/contact/">無料で進出の相談をする</a>
-	</div>
-</div>
+<div id="contact_new_area">
+    <section class="new_contact_box area">
+        <div class="inner">
+            <h4 class="contact_ttl">Please feel free to contact us at any time.</h4>
+            <ul>
+                <li>
+                    <a href="/contact/" class="new_btn color01"><span>Contact Us</span></a>
+                    <p class="caution">Respond within one business day</p>
+                </li>
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=6281519439549" class="new_btn color02"><span>WhatsApp</span></a>
+                    <p class="caution">Respond within 3 hours</p>
+                </li>
+            </ul>
+        </div>
+    </section>
 </div>

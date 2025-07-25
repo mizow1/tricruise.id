@@ -1,28 +1,17 @@
-<div class="page_index_box">
-	<h2 class="new_h2_ttl">Information about Indonesian visas.<br><span class="page_index_box_ttl_s">(Click to navigate to articles you want to read)</span></h2>
-
-	<dl class="page_index_list">
-		<dt><a href="/visa-services/">01</a></dt>
-		<dd>
-			<h3><a href="/visa-services/">For those seeking visa assistance for Indonesia</a></h3>
-		</dd>
-	</dl>
-	<dl class="page_index_list">
-		<dt><a href="/column/application-for-indonesias-e-voa/">02</a></dt>
-		<dd>
-			<h3><a href="/column/application-for-indonesias-e-voa/">Application for Indonesia's e-VOA</a></h3>
-		</dd>
-	</dl>
-	<dl class="page_index_list">
-		<dt><a href="/column/business-single-e-visa/">03</a></dt>
-		<dd>
-			<h3><a href="/column/business-single-e-visa/">Application for Indonesia's Business Single e-Visa (C2, C17, C19, C20)</a></h3>
-		</dd>
-	</dl>
-	<dl class="page_index_list">
-		<dt><a href="/column/business-multiple-e-visa/">04</a></dt>
-		<dd>
-			<h3><a href="/column/business-multiple-e-visa/">Application for Indonesia's Business Multiple e-Visa (D2, D4, D12, D17)</a></h3>
-		</dd>
-	</dl>
+<div id="contact_new_area">
+    <section class="new_contact_box area">
+        <div class="inner">
+            <h4 class="contact_ttl">Please feel free to contact us at any time.</h4>
+            <ul>
+                <li>
+                    <a href="/contact/" class="new_btn color01"><span>Contact Us</span></a>
+                    <p class="caution">Respond within one business day</p>
+                </li>
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=6281519439549" class="new_btn color02"><span>WhatsApp</span></a>
+                    <p class="caution">Respond within 3 hours</p>
+                </li>
+            </ul>
+        </div>
+    </section>
 </div>

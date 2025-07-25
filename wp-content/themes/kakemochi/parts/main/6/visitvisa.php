@@ -1,14 +1,10 @@
-<div class="column_cta_df_top_wrap">
-<section>
-	<div class="inner1200">
-		<div class="column_cta_df_top">
-			<div class="column_cta_df_top_txt_box">
-				<p class="column_cta_df_top_ttl">インドネシアにおける法人設立の基本</p>
-				<p class="column_cta_df_top_txt">例えば100万円程度の少額予算でインドネシア進出を始めるには、どういった方法があるかを解説するセミナーです</p>
-				<a href="/seminar/overseas-expansion-to-indonesia/" class="column_cta_df_top_txt_link">詳しくはこちら ></a>
-			</div>
-			<div class="column_cta_df_top_img"><a href="/seminar/overseas-expansion-to-indonesia/"><img src="/wp/wp-content/themes/kakemochi/img/column/seminar_japan_banner.png"></a></div>
-		</div>
+<div class="ctagr">
+	<div class="title">
+	Explore methods other than establishing a company?
 	</div>
-</section>
+	<div class="body">
+	Employer of Record Services in Indonesia<br>1. Payroll Processing<br>2. Income Tax Calculation<br>3. Provide Employee Insurance & Benefit<br><br>$400 per employee per month</div>
+	<a class="btn" href="/sales-services/employer-of-record/">
+	Learn more details
+	</a>
 </div>

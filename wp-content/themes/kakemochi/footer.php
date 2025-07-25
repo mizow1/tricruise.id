@@ -24,6 +24,15 @@
 	</div>
 </footer>
 <!-- footer end -->
+
+<!--sp_footer_btn-->
+		<div class="sp_footer_btn sp">
+			<div class="sp_footer_btn_wa"><a href="https://api.whatsapp.com/send?phone=6281519439549" target="_blank"><span>WhatsApp</span></a></div>
+			<div class="sp_footer_btn_co"><a href="<?php echo home_url(); ?>/contact/"><span>Contact us</span></a></div>
+		</div>
+		<!--//sp_footer_btn-->
+
+
 <!--固定LINE-->
 <div class="footer_line">
 	<a href="https://lin.ee/BM45FJY" target="_blank"><img src="<?php echo get_theme_file_uri(); ?>/img/common/footer_line.png" alt="LINE"></a>

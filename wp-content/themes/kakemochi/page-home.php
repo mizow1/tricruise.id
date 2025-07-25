@@ -93,6 +93,56 @@ if(get_the_post_thumbnail_url($post->ID, "full")){
 			</div>
 			<!-- //netad_contId02 -->			  
 
+			<!--お客様のロゴ-->
+			<?php get_template_part('parts/client_name'); ?>
+			<!--//お客様のロゴ-->
+			<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+		
+			<!--（11）-->
+			<div id="contact_new_area">
+				<section class="new_contact_box area">
+					<div class="inner">
+						<h4 class="contact_ttl">For Companies Looking to Market Entry into Indonesia</h4>
+						<ul>
+							<li>
+								<p class="ttl_in orange">Contact Us via Web</p>
+								<a href="/contact/" class="new_btn color01"><span>Free initial consultation</span></a>
+								<p class="caution">We will respond within one business day</p>
+							</li>
+							<li>
+								<p class="ttl_in orange">Contact Us via WhatsApp</p>
+								<a href="https://api.whatsapp.com/send?phone=6281519439549" class="new_btn color02"><span>We reply quickly</span></a>
+								<p class="caution">We will respond within 3 hours</p>
+							</li>
+						</ul>
+						<div class="box">
+							<div class="tel">
+								<p class="tel_txt">Contact Us by Phone</p>
+								<p class="tel_btn">
+									<a href="tel:050-1721-9794"><span class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAABOAQAAAACm0R2wAAAAAnRSTlMAAHaTzTgAAAARSURBVCjPY2AYBaNgFFAfAAADWgABZCqdLAAAAABJRU5ErkJggg==" alt="" data-src="https://kakemochi.co.jp/wp/wp-content/themes/kakemochi/img/ownedmedia-to-expand-indonesia/contact_tel.png" decoding="async" class="lazyload"><noscript>&lt;img src="https://kakemochi.co.jp/wp/wp-content/themes/kakemochi/img/ownedmedia-to-expand-indonesia/contact_tel.png" alt="" data-eio="l"&gt;</noscript></span>050-1721-9794</a>
+								</p>
+								<p class="time">（9:00〜19:00）</p>
+							</div>	
+							<a href="/company/" class="intro orange">About us</a>
+						</div>
+					</div>
+				</section>
+			</div>
+			<!-- //New_CTA -->			
+
+			<!-- //Handbook -->			
+			<div class="web-marketing-package-plan_camp">
+				<div class="web-marketing-package-plan_camp_inner">
+					<div class="web-marketing-package-plan_camp_cont entry-into-indonesia-package_plr">
+						<div class="web-marketing-package-plan_camp_obi">Free gift for all inquiries</div>
+						<p class="web-marketing-package-plan_camp_txt">A full 116-page guidebook<br><span class="orange">"Indonesia Market Entry Handbook"</span><br>Please contact us<br class="sp"> via the form above</p>
+					</div>
+				</div>
+			</div>
+
+			<div style="margin-top: 100px;"></div>
+
 			<!-- インドネシア進出サービス -->
 			<section class="index_new_service_new area">
 				<div class="inner1200">
@@ -331,32 +381,43 @@ if(get_the_post_thumbnail_url($post->ID, "full")){
 				<!-- Frequently Asked Questions -->
 			
 
-				<!-- New_CTA -->
-				<div class="n_cta">
-					<div class="n_cta_L">
-						<div class="n_cta_L_inner">
-							<p class="n_cta_L_ttl">We are experts for Entering the Indonesian Market</p>
-							<dl class="n_cta_L_cont">
-								<dt><img src="<?php echo get_theme_file_uri(); ?>/img/index_new/n_cta.png" alt="インドネシア市場にて成功させるコツがある"></dt>
-								<dd>
-									<p class="n_cta_L_ttl02">Research<br>EOR / VISA<br>Formation</p>
-								</dd>
-							</dl>
-							<p class="n_cta_L_bottom">Supporting foreign companies in expanding to Indonesia.</p>
-						</div>
-					</div>
+			<!--お客様のロゴ-->
+			<?php get_template_part('parts/client_name'); ?>
+			<!--//お客様のロゴ-->
+			<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 
-					<div class="n_cta_R">
-						<div class="n_cta_R_inner">
-							<script src="https://js-na2.hsforms.net/forms/embed/242405365.js" defer></script>
-							<div class="hs-form-frame" data-region="na2" data-form-id="f7c0a558-198b-40dc-8b9e-28f17252099c" data-portal-id="242405365"></div>
-						</div>
+		
+			<!-- New_CTA -->
+			<div class="n_cta">
+				<div class="n_cta_L">
+					<div class="n_cta_L_inner">
+						<p class="n_cta_L_ttl">We are experts for Entering the Indonesian Market</p>
+						<dl class="n_cta_L_cont">
+							<dt><img src="https://tricruise.id/wp/wp-content/themes/kakemochi/img/index_new/n_cta.png" alt="We are experts for Entering the Indonesian Market"></dt>
+							<dd>
+								<p class="n_cta_L_ttl02">Research<br>EOR / VISA<br>Formation</p>
+							</dd>
+						</dl>
+						<p class="n_cta_L_bottom">Supporting foreign companies in expanding to Indonesia.</p>
 					</div>
 				</div>
-				<!-- //New_CTA -->
 
-				
-
+				<div class="n_cta_R">
+					<div class="n_cta_R_inner">
+						<script src="https://js-na2.hsforms.net/forms/embed/242405365.js" defer></script>
+						<div class="hs-form-frame" data-region="na2" data-form-id="f7c0a558-198b-40dc-8b9e-28f17252099c" data-portal-id="242405365"></div>
+					</div>
+				</div>
+			</div>
+			<!-- //New_CTA -->			
+			<div class="web-marketing-package-plan_camp">
+				<div class="web-marketing-package-plan_camp_inner">
+					<div class="web-marketing-package-plan_camp_cont entry-into-indonesia-package_plr">
+						<div class="web-marketing-package-plan_camp_obi">Free gift for all inquiries</div>
+						<p class="web-marketing-package-plan_camp_txt">A full 116-page guidebook<br><span class="orange">"Indonesia Market Entry Handbook"</span><br>Please contact us<br class="sp"> via the form above</p>
+					</div>
+				</div>
+			</div>
 				
 
 				<?php //get_template_part('news'); ?>

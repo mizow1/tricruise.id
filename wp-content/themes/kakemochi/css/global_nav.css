@@ -21,7 +21,7 @@
 	padding: 30px 0;
 }
 #new_nav_pc .new_nav_in .new_nav_box > li:nth-child(-n+6) {
-    margin: 0 50px 0 0;
+    margin: 0 30px 0 0;
 }
 #new_nav_pc .new_nav_in .new_nav_box .drp_icon {
 	position: relative;
@@ -241,7 +241,7 @@
 
 @media screen and (max-width: 1490px) {
 	#new_nav_pc .new_nav_in .new_nav_box > li:nth-child(-n+6) {
-		margin: 0 40px 0 0;
+		margin: 0 30px 0 0;
 
 	}
 }
@@ -328,3 +328,163 @@
 }
 
 
+/*20250707グローバルナビ改修*/
+
+#header {
+	background: #fcece0;
+	padding-top: 5px;
+}
+
+.new_nav_in {
+	width: 97.13vw;
+    max-width: 1691px;
+    margin: 0 auto;
+	margin-top: 20px;
+    padding: 16px 16px 16px 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 3px 6px 6px 0px rgba(0, 0, 0, 0.16);
+    position: relative;
+	box-sizing: border-box;
+}
+
+#new_nav_pc .new_nav_in.pc_only_nav .new_nav_box .drp_icon::after {
+	display: none;
+}
+#new_nav_pc .new_nav_in.pc_only_nav .new_nav_box .drp_icon {
+	padding: 0 10px;
+}
+
+/* ベーススタイル */
+a.gnav_top_l {
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 120%;
+}
+
+/* 下線用の擬似要素 */
+a.gnav_top_l::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -13px;
+  height: 3px;
+  width: 0;
+  background-color: #f0882e;
+  transition: width 0.3s ease;
+}
+
+a.gnav_top_l:hover {
+	opacity: 1;
+}
+
+/* ホバー時にラインが伸びる */
+a.gnav_top_l:hover::after {
+  width: 100%;
+}
+
+a.gnav_top_btn00 {
+	color: #01b901;
+	margin-left: 30px;
+}
+
+/* 共通ベーススタイル */
+.gnav_top_btn01,
+.gnav_top_btn02 {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  border-radius: 100px;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  font-size: 110%;
+  transition: color 0.3s ease;
+  z-index: 1;
+}
+
+.gnav_top_btn01 {
+  border: 2px solid #25d366;
+  color: #128c7e;
+  margin-left: 20px;
+
+}
+
+.gnav_top_btn02 {
+  border: 2px solid #f0882e;
+  color: #fff;
+  background: #f0882e;
+  margin-left: 10px;
+}
+
+/* 擬似要素で背景を左から右へアニメーション */
+.gnav_top_btn01::before,
+.gnav_top_btn02::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  z-index: -1;
+  transition: width 0.4s ease;
+}
+
+.gnav_top_btn01::before {
+  background-color: #25d366;
+}
+
+.gnav_top_btn02::before {
+  background-color: #fff;
+}
+
+/* ホバー時のエフェクト */
+.gnav_top_btn01:hover::before,
+.gnav_top_btn02:hover::before {
+  width: 100%;
+}
+
+.gnav_top_btn01:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+.gnav_top_btn02:hover {
+  color: #f0882e;
+  opacity: 1;
+}
+
+@media screen and (max-width: 1080px) {
+	a.gnav_top_l {
+  font-size: 100%;
+}
+}
+
+@media screen and (max-width:1035px) {
+	#header {
+	background: #fff;
+	padding-top: 0;
+}
+.new_nav_in {
+	width: 100%;
+	margin-top: 0px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: none;
+    position: relative;
+	box-sizing: border-box;
+}
+}
+
+.nav_person {
+	margin-right: 20px;
+}
+
+.nav_person a {
+	color: #3096d1;
+}

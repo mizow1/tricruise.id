@@ -13,7 +13,7 @@ $posts_arr = new WP_Query($args);
 
 				<section class="index_new_column area bg01">
 					<div class="inner1000">
-						<h3 class="new_ttl01">New Blogs</h3>
+						<h3 class="new_ttl01"><a href="/column/">New Blogs</a></h3>
 						<ul class="new_slider_column">
                             <?php
 							foreach($posts_arr->posts as $post):setup_postdata($post);
