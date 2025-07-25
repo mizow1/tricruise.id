@@ -1,0 +1,1 @@
+<h2 class="mid_ttl"><?php block_field( 'text'); ?></h2>

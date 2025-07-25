@@ -1,0 +1,58 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+wp-content/debug.log
+
+# WordPress core files (if needed for full WP project)
+wp-admin/
+wp-includes/
+/*.txt
+/*.md
+!readme.html
+!license.txt
+!wp-config-sample.php
+
+# Node modules
+node_modules/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+error_log
+
+# Environment files
+.env
+*.env
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*~
+
+# Backup files
+*.bak
+*.backup
+
+# Screenshot files (if needed, remove this line)
+screenshot.png
+screenshot.png.webp

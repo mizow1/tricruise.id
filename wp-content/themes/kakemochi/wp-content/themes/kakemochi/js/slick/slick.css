@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+
+/* Slider */
+.slick-loading .slick-list {
+	background: #fff url('./ajax-loader.gif') center center no-repeat;
+}
+/* Icons */
+@font-face {
+	font-family: 'slick';
+	font-weight: normal;
+	font-style: normal;
+	src: url('./fonts/slick.eot');
+	src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+}
+
+
+/* slider
+-------------------------------------------------------*/
+.slide_wrap {
+	position: relative;
+}
+.slick-slider {
+	display: block;
+	box-sizing: border-box;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-touch-callout: none;
+	-khtml-user-select: none;
+	-ms-touch-action: pan-y;
+	touch-action: pan-y;
+	-webkit-tap-highlight-color: transparent;
+	position: relative;
+	
+}
+.slick-list {/***** 変更 *****/
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.slick-slide {/***** 変更 *****/
+	display: none;
+	height: 100%;
+	min-height: 1px;
+	outline: none;
+	/*margin-right: px;/* コンテンツの間隔 */
+}
+@media screen and (max-width: 768px){
+	.slick-list {
+		/*margin-right: -px;/* コンテンツの間隔のずれ修正 */
+	}
+	.slick-slide {
+		/*margin-right: px;/* コンテンツの間隔 */
+	}
+}
+.slick-list:focus {
+	outline: none;
+}
+.slick-list.dragging {
+	cursor: pointer;
+	cursor: hand;
+}
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+	transform: translate3d(0, 0, 0);
+}
+.slick-track {
+	position: relative;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: stretch;
+	justify-content: space-between;
+}
+.slick-track:before,
+.slick-track:after {
+	display: table;
+	content: '';
+}
+.slick-track:after {
+	clear: both;
+}
+.slick-loading .slick-track {
+	visibility: hidden;
+}
+.slick-slide a {
+	outline: none;
+}
+.slick-slide img {
+	display: block;
+	margin: 0 auto;
+}
+.slick-slide.slick-loading img {
+	display: none;
+}
+.slick-slide.dragging img {
+	pointer-events: none;
+}
+.slick-initialized .slick-slide {
+	display: block;
+}
+.slick-loading .slick-slide {
+	visibility: hidden;
+}
+.slick-vertical .slick-slide {
+	display: block;
+	height: auto;
+	border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+	display: none;
+}
+
+
+/* arrows
+-------------------------------------------------------*/
+.slick-prev,
+.slick-next {/***** 変更 *****/
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 9;
+	line-height: 0;
+	font-size: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: no-repeat center center/contain;
+	width: 20px;
+	height: 31px;
+}
+.slick-prev {/***** 変更 *****/
+	background-image: url("../../img/index_new/prev.png");
+	left: -20px;
+}
+.slick-next {/***** 変更 *****/
+	background-image: url("../../img/index_new/next.png");
+	right: -20px;
+}
+@media screen and (max-width: 768px){
+	.slick-prev,
+	.slick-next {/***** 変更 *****/
+		width: 14px;
+		height: 21px;
+	}
+	.slick-prev {/***** 変更 *****/
+		left: 0;
+	}
+	.slick-next {/***** 変更 *****/
+		right: 0;
+	}
+}
+.slick-prev:hover,
+.slick-next:hover {
+	opacity: 0.7;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+	opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+	opacity: .25;
+}
+.slick-prev:before,
+.slick-next:before {
+	font-family: 'slick';
+	font-size: 20px;
+	line-height: 1;
+	opacity: .75;
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+/* dots
+-------------------------------------------------------*/
+.slick-dots {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 20px;
+	margin: auto;
+}
+.slick-dots li {
+	line-height: 0;
+}
+.slick-dots li button {/***** 変更 *****/
+	font-size: 0;
+	line-height: 0;
+	width: 20px;
+	height: 20px;
+	margin: 0 8px;
+	padding: 0;
+	cursor: pointer;
+	background: #fff;
+	border: none;
+	box-sizing: border-box;
+	border-radius: 50px;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus {/***** 変更 *****/
+	outline: none;
+	background: #333;
+}
+.slick-dots li.slick-active button {/***** 変更 *****/
+	background: #333;
+}
+@media screen and (max-width:768px){
+	.slick-dots {
+		bottom: 20px;
+	}
+	.slick-dots li button{/***** 変更 *****/
+		width: 10px;
+		height: 10px;
+	}
+}
+
+
+/* new_voice_list
+-------------------------------------------------------*/
+.index_new_voice .slick-list {
+	overflow: inherit;
+}

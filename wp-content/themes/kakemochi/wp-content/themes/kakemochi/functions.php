@@ -21,9 +21,6 @@ add_theme_support('post-thumbnails');
 //固定ページで抜粋有効化
 add_post_type_support('page', 'excerpt');
 
-//固定ページでテンプレート選択を有効化
-add_post_type_support('page', 'page-attributes');
-
 // ブロックエディタに実際のサイトのデザインを適用
 add_action('after_setup_theme', function () {
 	add_theme_support('editor-styles');
